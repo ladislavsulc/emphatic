@@ -1,0 +1,50 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "0b498f85c3678943e50c4a1621bdb4c38e0cbfd2"
+      }
+    ],
+    "outputSha": "18c31157f1910d370db4e449e86bb1ac00a806b2",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts\\main.js",
+        "sha": "e2ecf845feeb136ec2421b9eff8c4f23c5f9cb6b"
+      }
+    ],
+    "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
+    "input": "scripts\\main.js",
+    "output": [
+      "scripts\\main.js.map",
+      "scripts\\main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles\\main.scss",
+        "sha": "b8192b552166cbaaf2394b77b2d6bcb2822e4823"
+      },
+      {
+        "file": "styles\\main.scss",
+        "sha": "b8192b552166cbaaf2394b77b2d6bcb2822e4823"
+      }
+    ],
+    "outputSha": "51c5c3fd8b4eaa762fa90d0b969e659e2ba2af8b",
+    "input": "styles\\main.scss",
+    "output": [
+      "styles\\main.css.map",
+      "styles\\main.css"
+    ]
+  }
+]
