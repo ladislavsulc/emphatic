@@ -4,7 +4,7 @@
     "inputSha": [
       {
         "file": "404.html",
-        "sha": "b3158f6e201e19c4983a7011b35171d5b4afb085"
+        "sha": "cf9ed836f55ef9daac80543263f22c242e0e3eee"
       }
     ],
     "outputSha": "376ce71673efd712d4f763e354fc3021ee994160",
@@ -18,13 +18,41 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "da6b412b62acf525f4951d4bee595f2098c17ccd"
+        "sha": "f1a747ba6bd2e93930cc27c4db5b258b00e38f64"
       }
     ],
-    "outputSha": "3a4cf0900d3b709b82b32c400cf8c8ca340726db",
+    "outputSha": "62c01086fe980204998636f160056fef358b6d39",
     "input": "index.html",
     "output": [
       "index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "index.pug",
+        "sha": "9e8d1b6b5d19ab8210274dc8a1dbd766cd71c23d"
+      }
+    ],
+    "outputSha": "298726ac41a3d36e89c3e7ad9bddc19ca1cacd54",
+    "input": "index.pug",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "layout.pug",
+        "sha": "7cf1b2ba6ea04f0bbef59719d54b4ec530b3e804"
+      }
+    ],
+    "outputSha": "b82f841c1a40249dbdfb366e6dfa7ac0d01cf9c6",
+    "input": "layout.pug",
+    "output": [
+      "layout.html"
     ]
   },
   {
@@ -32,7 +60,7 @@
     "inputSha": [
       {
         "file": "styles\\main.scss",
-        "sha": "94a2a7c7a08dee963b98a84329c852709281c5c8"
+        "sha": "491df3084ca7a72fb7c5d317b3b8833794f3c35d"
       }
     ],
     "outputSha": "acbbd4f9388e5852edcb52ff035239f00aa48310",
