@@ -3,20 +3,6 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "_layout.pug",
-        "sha": "14fd79056cf9905e431600170ac393653f93da16"
-      }
-    ],
-    "outputSha": "14fd79056cf9905e431600170ac393653f93da16",
-    "input": "_layout.pug",
-    "output": [
-      "_layout.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "_404.html",
         "sha": "a338aad562a34b8563925a438d2a313955775066"
       }
@@ -42,6 +28,20 @@
     ]
   },
   {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "_layout.pug",
+        "sha": "14fd79056cf9905e431600170ac393653f93da16"
+      }
+    ],
+    "outputSha": "14fd79056cf9905e431600170ac393653f93da16",
+    "input": "_layout.pug",
+    "output": [
+      "_layout.pug"
+    ]
+  },
+  {
     "type": "pug@2.0.0-rc.1::map::minify",
     "inputSha": [
       {
@@ -54,7 +54,7 @@
       },
       {
         "file": "layout\\_head.pug",
-        "sha": "0730e105d96b24bf41e7953ee4832b0ef41a52c0"
+        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
       },
       {
         "file": "layout\\_nav.pug",
@@ -73,10 +73,52 @@
         "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
       }
     ],
-    "outputSha": "b47f69fd3a92f64af79e55e64f3c5f41646672bd",
+    "outputSha": "a1e10c6b7485d67795cb4d73b7593730c765e9a9",
     "input": "index.pug",
     "output": [
       "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layout\\_footer.pug",
+        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
+      }
+    ],
+    "outputSha": "374d10a21bdd133bb2ff7809cf1faa24ff264278",
+    "input": "layout\\_footer.pug",
+    "output": [
+      "layout\\_footer.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layout\\_head.pug",
+        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
+      }
+    ],
+    "outputSha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9",
+    "input": "layout\\_head.pug",
+    "output": [
+      "layout\\_head.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layout\\_nav.pug",
+        "sha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2"
+      }
+    ],
+    "outputSha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2",
+    "input": "layout\\_nav.pug",
+    "output": [
+      "layout\\_nav.pug"
     ]
   },
   {
@@ -111,44 +153,6 @@
     "type": "pug@2.0.0-rc.1::map::minify",
     "inputSha": [
       {
-        "file": "pages\\about.pug",
-        "sha": "7fb4b83fec040431b6fa84d480b78964ec393029"
-      },
-      {
-        "file": "_layout.pug",
-        "sha": "14fd79056cf9905e431600170ac393653f93da16"
-      },
-      {
-        "file": "layout\\_head.pug",
-        "sha": "0730e105d96b24bf41e7953ee4832b0ef41a52c0"
-      },
-      {
-        "file": "layout\\_nav.pug",
-        "sha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2"
-      },
-      {
-        "file": "layout\\_footer.pug",
-        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
-      },
-      {
-        "file": "mixins\\_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "mixins\\_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      }
-    ],
-    "outputSha": "d03700f875d4ed57c394bfa8c139816b89f898a5",
-    "input": "pages\\about.pug",
-    "output": [
-      "pages\\about.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.1::map::minify",
-    "inputSha": [
-      {
         "file": "pages\\services.pug",
         "sha": "2d7ce1397678634325454a9615bebbc58e8769ee"
       },
@@ -158,7 +162,7 @@
       },
       {
         "file": "layout\\_head.pug",
-        "sha": "0730e105d96b24bf41e7953ee4832b0ef41a52c0"
+        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
       },
       {
         "file": "layout\\_nav.pug",
@@ -177,10 +181,48 @@
         "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
       }
     ],
-    "outputSha": "d3de09c968f08f92c530b84a3ed3a5a3f0d987da",
+    "outputSha": "bf00910cbeeb3407daddf0e272e1f7447141adb4",
     "input": "pages\\services.pug",
     "output": [
       "pages\\services.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "pages\\about.pug",
+        "sha": "7fb4b83fec040431b6fa84d480b78964ec393029"
+      },
+      {
+        "file": "_layout.pug",
+        "sha": "14fd79056cf9905e431600170ac393653f93da16"
+      },
+      {
+        "file": "layout\\_head.pug",
+        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
+      },
+      {
+        "file": "layout\\_nav.pug",
+        "sha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2"
+      },
+      {
+        "file": "layout\\_footer.pug",
+        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
+      },
+      {
+        "file": "mixins\\_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "mixins\\_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      }
+    ],
+    "outputSha": "a2d1695de1ba3ff4c8d45daf058184bf37c0a047",
+    "input": "pages\\about.pug",
+    "output": [
+      "pages\\about.html"
     ]
   },
   {
@@ -196,48 +238,6 @@
     "output": [
       "styles\\main.css.map",
       "styles\\main.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "layout\\_footer.pug",
-        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
-      }
-    ],
-    "outputSha": "374d10a21bdd133bb2ff7809cf1faa24ff264278",
-    "input": "layout\\_footer.pug",
-    "output": [
-      "layout\\_footer.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "layout\\_head.pug",
-        "sha": "0730e105d96b24bf41e7953ee4832b0ef41a52c0"
-      }
-    ],
-    "outputSha": "0730e105d96b24bf41e7953ee4832b0ef41a52c0",
-    "input": "layout\\_head.pug",
-    "output": [
-      "layout\\_head.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "layout\\_nav.pug",
-        "sha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2"
-      }
-    ],
-    "outputSha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2",
-    "input": "layout\\_nav.pug",
-    "output": [
-      "layout\\_nav.pug"
     ]
   },
   {
