@@ -1,0 +1,43 @@
+block footer
+
+include ../mixins/_footer-links.pug
+include ../mixins/_footer-social-links.pug
+
+- var contactMail = "info@emphatic.cz";
+
+#footer.uk-section-muted.uk-section.uk-section-large(uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-fade; delay:false")
+	.uk-container 
+		.uk-grid-large.uk-grid-margin-large.uk-grid(uk-grid)
+
+			//- Column 1
+			div(class="uk-width-expand@m uk-width-1-2@s uk-first-column" uk-scrollspy-class)
+				.uk-margin
+					h3.uk-h5 Emphatic
+					.uk-margin.uk-width-xlarge
+						p Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean.
+
+			//- Column 2
+			div(class="uk-width-expand@m uk-width-1-2@s" uk-scrollspy-class)
+				h3.uk-h5 Products
+				ul.uk-list
+					+footer-item('sadsas','sadsadsda')
+					+footer-item('sadsas','sadsadsda')
+					+footer-item('sadsas','sadsadsda')
+
+			//- Column 3
+			div(class="uk-width-expand@m uk-width-1-2@s" uk-scrollspy-class)
+				h3.uk-h5 Company
+				ul.uk-list
+					+footer-item('sadsas','sadsadsda')
+					+footer-item('sadsas','sadsadsda')
+					+footer-item('sadsas','sadsadsda')
+
+			//- Column 4
+			div(class="uk-width-expand@m uk-width-1-2@s" uk-scrollspy-class)
+				h3.uk-h5 Contact Us
+				.uk-margin #{contactMail}
+				.uk-margin
+					div(class="uk-child-width-auto uk-grid-medium" uk-grid)
+						+footer-social-item('icon: instagram;ratio: 0.8','https://www.instagram.com/')
+						+footer-social-item('icon: twitter;ratio: 0.8','https://www.twitter.com/')
+						+footer-social-item('icon: facebook;ratio: 0.8','https://www.facebook.com/')
