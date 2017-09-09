@@ -1,15 +1,3 @@
-# BEGIN rewrite - remove.html
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)\.html$ /$1 [L,R=301]
-
-# RewriteEngine On
-Options +FollowSymLinks -MultiViews
-RewriteBase /
-
-RewriteRule ^pages/(.*)$ /$1 [L,NC,R]
-
 # BEGIN Compress text files
 <ifModule mod_deflate.c>
   <filesMatch "\.(css|js|x?html?|php)$">
