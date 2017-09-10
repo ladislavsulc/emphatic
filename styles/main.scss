@@ -1,3 +1,29 @@
-$heading-color: red;
+// 1. Your custom variables and variable overwrites.
+//$global-link-color: #DA02C8;
 
+// 2. Import default variables and available mixins.
+//@import "../node_modules/uikit/src/scss/variables-theme.scss";
+//@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+
+// 3. Import UIkit.
+//@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+
+// Main Navigation
+.tm-uk-navbar-container:not(.uk-navbar-transparent) {
+	background: #fff;
+	border-bottom: 1px solid #f8f8f8;
+}
+.tm-logo {
+	position: relative;
+	top: 5px;
+}
+.tm-bolder {
+	font-weight: 600;
+}
+.tm-spacing {
+	letter-spacing: 0.05em;
+}
+.tm-highlight {
+	color: #0f6ecd !important;
+}
 

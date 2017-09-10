@@ -12,7 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "@pingy/cli": "^0.6.6",
-    "node-sass": "^4.5.3",
+		"node-sass": "^4.5.3",
+		"uikit": "3.0.0-beta.30",
     "pug": "^2.0.0-rc.1"
   }
 }

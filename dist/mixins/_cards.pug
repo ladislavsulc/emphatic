@@ -1,0 +1,13 @@
+mixin card(cardHeading, cardContent)
+	div
+		.uk-card.uk-card-default.uk-card-body
+			h3.uk-card-title= cardHeading
+			p= cardContent
+
+mixin card-list(cardListHeading, ...items)
+	div
+		.uk-card.uk-card-default.uk-card-body.uk-card-hover
+			h3.uk-card-title= cardListHeading
+			ul.uk-list
+				each item in items
+					li= item

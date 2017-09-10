@@ -17,6 +17,20 @@
     "type": "::map::minify",
     "inputSha": [
       {
+        "file": "_layout.pug",
+        "sha": "c93be0c665aae19184bfa0760d4028d1b7d0826d"
+      }
+    ],
+    "outputSha": "c93be0c665aae19184bfa0760d4028d1b7d0826d",
+    "input": "_layout.pug",
+    "output": [
+      "_layout.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
         "file": "_oldindex.html",
         "sha": "58a32cf423eacde27e2c1f66eeae40d608b99802"
       }
@@ -28,29 +42,19 @@
     ]
   },
   {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "_layout.pug",
-        "sha": "14fd79056cf9905e431600170ac393653f93da16"
-      }
-    ],
-    "outputSha": "14fd79056cf9905e431600170ac393653f93da16",
-    "input": "_layout.pug",
-    "output": [
-      "_layout.pug"
-    ]
-  },
-  {
     "type": "pug@2.0.0-rc.1::map::minify",
     "inputSha": [
       {
         "file": "index.pug",
-        "sha": "b53ad0cfb3f7a6ae06cabad4fb2d37ca8e1f634a"
+        "sha": "1287cba705dc933d3b902c55d3ccbe36e6729c16"
       },
       {
         "file": "_layout.pug",
-        "sha": "14fd79056cf9905e431600170ac393653f93da16"
+        "sha": "c93be0c665aae19184bfa0760d4028d1b7d0826d"
+      },
+      {
+        "file": "mixins\\_cards.pug",
+        "sha": "b461cb6fb887dc3003d72eb0a8ca284f92e60a17"
       },
       {
         "file": "layout\\_head.pug",
@@ -58,7 +62,7 @@
       },
       {
         "file": "layout\\_nav.pug",
-        "sha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2"
+        "sha": "36e003657ce8c99322bdcfebb6dc02e376b6b303"
       },
       {
         "file": "layout\\_footer.pug",
@@ -71,12 +75,58 @@
       {
         "file": "mixins\\_footer-social-links.pug",
         "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "layout\\_scripts.pug",
+        "sha": "bbd3f0246a9f03d964aa3949a010be6e1ee1f73c"
       }
     ],
-    "outputSha": "a1e10c6b7485d67795cb4d73b7593730c765e9a9",
+    "outputSha": "cfba07b9a3c3ab6925a505137c9655596fcd541a",
     "input": "index.pug",
     "output": [
       "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "mixins\\_cards.pug",
+        "sha": "b461cb6fb887dc3003d72eb0a8ca284f92e60a17"
+      }
+    ],
+    "outputSha": "b461cb6fb887dc3003d72eb0a8ca284f92e60a17",
+    "input": "mixins\\_cards.pug",
+    "output": [
+      "mixins\\_cards.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "mixins\\_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      }
+    ],
+    "outputSha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf",
+    "input": "mixins\\_footer-links.pug",
+    "output": [
+      "mixins\\_footer-links.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "mixins\\_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      }
+    ],
+    "outputSha": "6327d70377ee6709bf34062db0d1438661cc9c63",
+    "input": "mixins\\_footer-social-links.pug",
+    "output": [
+      "mixins\\_footer-social-links.pug"
     ]
   },
   {
@@ -112,10 +162,10 @@
     "inputSha": [
       {
         "file": "layout\\_nav.pug",
-        "sha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2"
+        "sha": "36e003657ce8c99322bdcfebb6dc02e376b6b303"
       }
     ],
-    "outputSha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2",
+    "outputSha": "36e003657ce8c99322bdcfebb6dc02e376b6b303",
     "input": "layout\\_nav.pug",
     "output": [
       "layout\\_nav.pug"
@@ -125,119 +175,14 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "mixins\\_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+        "file": "layout\\_scripts.pug",
+        "sha": "bbd3f0246a9f03d964aa3949a010be6e1ee1f73c"
       }
     ],
-    "outputSha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf",
-    "input": "mixins\\_footer-links.pug",
+    "outputSha": "bbd3f0246a9f03d964aa3949a010be6e1ee1f73c",
+    "input": "layout\\_scripts.pug",
     "output": [
-      "mixins\\_footer-links.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "mixins\\_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      }
-    ],
-    "outputSha": "6327d70377ee6709bf34062db0d1438661cc9c63",
-    "input": "mixins\\_footer-social-links.pug",
-    "output": [
-      "mixins\\_footer-social-links.pug"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.1::map::minify",
-    "inputSha": [
-      {
-        "file": "pages\\services.pug",
-        "sha": "2d7ce1397678634325454a9615bebbc58e8769ee"
-      },
-      {
-        "file": "_layout.pug",
-        "sha": "14fd79056cf9905e431600170ac393653f93da16"
-      },
-      {
-        "file": "layout\\_head.pug",
-        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
-      },
-      {
-        "file": "layout\\_nav.pug",
-        "sha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2"
-      },
-      {
-        "file": "layout\\_footer.pug",
-        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
-      },
-      {
-        "file": "mixins\\_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "mixins\\_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      }
-    ],
-    "outputSha": "bf00910cbeeb3407daddf0e272e1f7447141adb4",
-    "input": "pages\\services.pug",
-    "output": [
-      "pages\\services.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.1::map::minify",
-    "inputSha": [
-      {
-        "file": "pages\\about.pug",
-        "sha": "7fb4b83fec040431b6fa84d480b78964ec393029"
-      },
-      {
-        "file": "_layout.pug",
-        "sha": "14fd79056cf9905e431600170ac393653f93da16"
-      },
-      {
-        "file": "layout\\_head.pug",
-        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
-      },
-      {
-        "file": "layout\\_nav.pug",
-        "sha": "6a23e2e572a38e3125f56c97fffacaeca5128fe2"
-      },
-      {
-        "file": "layout\\_footer.pug",
-        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
-      },
-      {
-        "file": "mixins\\_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "mixins\\_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      }
-    ],
-    "outputSha": "a2d1695de1ba3ff4c8d45daf058184bf37c0a047",
-    "input": "pages\\about.pug",
-    "output": [
-      "pages\\about.html"
-    ]
-  },
-  {
-    "type": "node-sass@4.5.3::map::minify",
-    "inputSha": [
-      {
-        "file": "styles\\main.scss",
-        "sha": "dde66bd30db9acb38212324a95aad941249456c8"
-      }
-    ],
-    "outputSha": "acbbd4f9388e5852edcb52ff035239f00aa48310",
-    "input": "styles\\main.scss",
-    "output": [
-      "styles\\main.css.map",
-      "styles\\main.css"
+      "layout\\_scripts.pug"
     ]
   },
   {
@@ -253,6 +198,163 @@
     "output": [
       "scripts\\main.js.map",
       "scripts\\main.js"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "pages\\about.pug",
+        "sha": "7fb4b83fec040431b6fa84d480b78964ec393029"
+      },
+      {
+        "file": "_layout.pug",
+        "sha": "c93be0c665aae19184bfa0760d4028d1b7d0826d"
+      },
+      {
+        "file": "mixins\\_cards.pug",
+        "sha": "b461cb6fb887dc3003d72eb0a8ca284f92e60a17"
+      },
+      {
+        "file": "layout\\_head.pug",
+        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
+      },
+      {
+        "file": "layout\\_nav.pug",
+        "sha": "36e003657ce8c99322bdcfebb6dc02e376b6b303"
+      },
+      {
+        "file": "layout\\_footer.pug",
+        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
+      },
+      {
+        "file": "mixins\\_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "mixins\\_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "layout\\_scripts.pug",
+        "sha": "bbd3f0246a9f03d964aa3949a010be6e1ee1f73c"
+      }
+    ],
+    "outputSha": "fe78d19a4224ee72f9971a35ad9de22036e8d1b4",
+    "input": "pages\\about.pug",
+    "output": [
+      "pages\\about.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "pages\\case-studies.pug",
+        "sha": "8c2f57e9019a83bddfb3c69abc9f352ea203e59c"
+      },
+      {
+        "file": "_layout.pug",
+        "sha": "c93be0c665aae19184bfa0760d4028d1b7d0826d"
+      },
+      {
+        "file": "mixins\\_cards.pug",
+        "sha": "b461cb6fb887dc3003d72eb0a8ca284f92e60a17"
+      },
+      {
+        "file": "layout\\_head.pug",
+        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
+      },
+      {
+        "file": "layout\\_nav.pug",
+        "sha": "36e003657ce8c99322bdcfebb6dc02e376b6b303"
+      },
+      {
+        "file": "layout\\_footer.pug",
+        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
+      },
+      {
+        "file": "mixins\\_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "mixins\\_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "layout\\_scripts.pug",
+        "sha": "bbd3f0246a9f03d964aa3949a010be6e1ee1f73c"
+      }
+    ],
+    "outputSha": "5d29d40b849ec04b577ab3a03a2e0c9ffcc201b3",
+    "input": "pages\\case-studies.pug",
+    "output": [
+      "pages\\case-studies.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "pages\\expertise.pug",
+        "sha": "01d884f94af6caeb07bf18ba72566f44e879f116"
+      },
+      {
+        "file": "_layout.pug",
+        "sha": "c93be0c665aae19184bfa0760d4028d1b7d0826d"
+      },
+      {
+        "file": "mixins\\_cards.pug",
+        "sha": "b461cb6fb887dc3003d72eb0a8ca284f92e60a17"
+      },
+      {
+        "file": "layout\\_head.pug",
+        "sha": "e9401b7ef3cc220bc34497f4af726086f5d7e1d9"
+      },
+      {
+        "file": "layout\\_nav.pug",
+        "sha": "36e003657ce8c99322bdcfebb6dc02e376b6b303"
+      },
+      {
+        "file": "layout\\_footer.pug",
+        "sha": "374d10a21bdd133bb2ff7809cf1faa24ff264278"
+      },
+      {
+        "file": "mixins\\_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "mixins\\_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "layout\\_scripts.pug",
+        "sha": "bbd3f0246a9f03d964aa3949a010be6e1ee1f73c"
+      }
+    ],
+    "outputSha": "21655dff8476296228bec7b58499277cd79781bd",
+    "input": "pages\\expertise.pug",
+    "output": [
+      "pages\\expertise.html"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles\\main.scss",
+        "sha": "dca4db112dfa489dff04b31b4526cf7aaccb18b4"
+      },
+      {
+        "file": "styles\\main.scss",
+        "sha": "dca4db112dfa489dff04b31b4526cf7aaccb18b4"
+      }
+    ],
+    "outputSha": "21cb07ef7cb8e0d5a9fa4b7dba1876ff9b4e9d0a",
+    "input": "styles\\main.scss",
+    "output": [
+      "styles\\main.css.map",
+      "styles\\main.css"
     ]
   }
 ]

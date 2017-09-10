@@ -1,0 +1,14 @@
+extends ../_layout.pug
+
+block content
+	
+	.uk-section.uk-section-large
+		.uk-container.uk-container-small.uk-margin-large
+			h1.tm-bolder We design and develop solutions that solve users’ problems.
+	.uk-section.uk-section-large.uk-padding-remove-top
+		.uk-container
+			div(class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid)
+				+card-list('Product Design', 'Strategy', 'Design Sprints', 'Research', 'User Interface Design', 'User Growth')
+				+card-list('Development', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.')
+				+card-list('Growth', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.')
+
