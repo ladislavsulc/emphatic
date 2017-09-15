@@ -1,9 +1,12 @@
 extends _layout.pug
 
-block content
+block vars
+	- title = "Emphatic"
+	- description ="This is homepage"
 
+block content
 	.uk-section-default.uk-light(uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":false}')
-		.uk-background-secondary.uk-section.uk-flex.uk-flex-middle(style="background red;", uk-height-viewport="offset-top: true")
+		.uk-background-secondary.uk-section.uk-flex.uk-flex-middle(uk-height-viewport="offset-top: true")
 			.uk-width-1-1
 				.uk-container
 					.uk-grid-margin(uk-grid)
@@ -28,15 +31,3 @@ block content
 					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
 				div
 					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-
-	.uk-container.uk-margin-large
-		h1 Hello, this is homepage! Ladislav!
-
-		div(class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-margin")
-			h3.uk-card-title Default
-			p a paragraph #[a(href="https://pugjs.org") with an inline-link] with a space
-
-			article.uk-article
-			h1.uk-article-title Heading
-			p.uk-article-meta
-			| Written by #[a(href="#") SuperUser] on 12 April 2012. Posted in #[a(href="#") Blog]
