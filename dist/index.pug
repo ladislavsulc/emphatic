@@ -5,6 +5,7 @@ block vars
 	- description ="This is homepage"
 
 block content
+	//- Hero Section
 	.uk-section-default.uk-light(uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":false}')
 		.uk-background-secondary.uk-section.uk-flex.uk-flex-middle(uk-height-viewport="offset-top: true")
 			.uk-width-1-1
@@ -18,16 +19,27 @@ block content
 							.uk-margin.uk-width-xlarge.uk-margin-auto.uk-text-center(uk-scrollspy-class)
 								| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
 								| penatibus et magnis.
-
-	.uk-section.uk-section-primary.uk-light
+							.uk-text-center.uk-margin-medium-top(uk-scrollspy-class)
+								a(class="uk-button uk-button-default" href="#") Case Studies
+	//- Featured Partners & Clients
+	.uk-section.uk-section-large.uk-section-default.uk-text-center
 		.uk-container
-
-			h3 Section Primary
-
-			div(class="uk-grid-match uk-child-width-1-3@m" uk-grid)
+			h2 Partners / Clients
+			p.uk-text-lead.uk-margin-medium-bottom
+				| Some of our partners / clients we have worked <s>for</s> WITH.
+			div(class="uk-grid-divider uk-child-width-expand@s" uk-grid)
 				div
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					| Lorem
 				div
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					| Lorem
 				div
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					| Lorem
+				div
+					| Lorem
+	//- Featured Testimonials
+	.uk-section.uk-section-muted
+		.uk-container
+			div(class="uk-child-width-1-2@s uk-child-width-1-3@m uk-flex-center uk-text-small uk-grid-medium uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 300;")
+				+card-testimonial('Great and friendly cooperation, willing to walk the extra mile for the customer´s satisfaction, I can sincerely recommend for anything web related.','/img/richfox-logo_50x50.svg', 'Jiří Vojkovský', 'RichFox Capital')
+				+card-testimonial('Working with Emphatic was a very comforting experience. I felt taken care of while also feeling on the cutting edge of web design and development.','/img/teal-swan-logo_50x50.svg', 'Blake Dyer', 'COO at Teal Eye')
+	hr.uk-margin-remove

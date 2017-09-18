@@ -9,7 +9,7 @@
 //@import "../node_modules/uikit/src/scss/uikit-theme.scss";
 
 // Main Navigation
-.tm-uk-navbar-container:not(.uk-navbar-transparent) {
+.tm-navbar-container:not(.uk-navbar-transparent) {
 	background: #fff;
 	border-bottom: 1px solid #ececec;
 }
@@ -34,6 +34,42 @@
 }
 
 // Cards
+.uk-card-default .uk-card-body a {
+	text-decoration: none;
+
+	h3 {
+		display: inline;
+		padding-bottom: 2px;
+		border-bottom: 1px solid transparent;
+
+		transition: all 0.3s ease;
+	}
+
+	&:hover h3 {
+		text-decoration: none;
+		border-bottom: 1px solid #111;
+		color: #111;
+	}
+}
+.uk-card-secondary.uk-card-hover .uk-card-body a {
+	text-decoration: none;
+
+	h3 {
+		display: inline;
+		padding-bottom: 2px;
+		border-bottom: 1px solid transparent;
+
+		color: #ddd;
+
+		transition: all 0.3s ease;
+	}
+
+	&:hover h3 {
+		text-decoration: none;
+		border-bottom: 1px solid #fff;
+		color: #fff;
+	}
+}
 .uk-card-media-top {
 	border-bottom: 1px solid #ececec;
 }
@@ -48,6 +84,19 @@
 }
 .tm-border-top div:nth-child(3) .uk-card {
 	border-color: #15e25e;
+}
+
+// General
+.uk-text-small blockquote {
+	font-size: 1rem;
+
+	& p:before,
+	& p:after {
+		content: '"';
+	}
+}
+.fw-600 {
+	font-weight: 600;
 }
 
 // FOOTER
