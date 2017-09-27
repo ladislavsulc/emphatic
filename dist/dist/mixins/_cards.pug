@@ -1,0 +1,60 @@
+//- Default Card
+mixin card(cardHeading, cardContent)
+	div
+		.uk-card.uk-card-default.uk-card-body
+			h3.uk-card-title= cardHeading
+			p= cardContent
+
+//- Hover Card
+mixin card-hover(cardHoverHeading, ...items)
+	div
+		.uk-card.uk-card-body.uk-card-secondary
+			h3.uk-card-title= cardHoverHeading
+			ul.uk-list
+				each item in items
+					li= item
+
+//- Card with a list
+mixin card-list(cardListHeading, ...items)
+	div
+		.uk-card.uk-card-default.uk-card-body.uk-card-hover
+			h3.uk-card-title= cardListHeading
+			ul.uk-list
+				each item in items
+					li= item
+
+//- Card with image at the top
+mixin card-image(cardImageLink, cardImage, cardImageHeading, cardImageContent)
+	div
+		.uk-card.uk-card-default.uk-card-hover
+			.uk-card-media-top.uk-inline-clip.uk-transition-toggle
+				a(href= cardImageLink)
+					img(src=(cardImage) class="uk-transition-scale-up uk-transition-opaque")
+			.uk-card-body
+				a(href= cardImageLink)
+					h3.uk-card-title= cardImageHeading
+				p= cardImageContent
+
+//- Card with image on the left
+mixin card-image-left(cardLeftImageLink, cardLeftImage, cardLeftImageWidth, cardLeftImageHeight, cardLeftImageHeading, cardLeftImageContent)
+	div
+		div(class="uk-card uk-card-secondary uk-card-small uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid)
+			.uk-card-media-left.uk-cover-container.uk-inline-clip.uk-transition-toggle
+				a(href= cardLeftImageLink)
+					img(src=(cardLeftImage) class="uk-transition-scale-up uk-transition-opaque" width= cardLeftImageWidth height= cardLeftImageHeight)
+			.uk-card-body
+				a(href= cardLeftImageLink)
+					h3.uk-h4= cardLeftImageHeading
+				p: em.uk-text-muted= cardLeftImageContent
+
+//- Testimonial Card
+mixin card-testimonial(cardTestimonialQuote, cardTestimonialLogo, cardTestimonialAuthor, cardTestimonialCompany)
+	div
+		.uk-card.uk-card-small.uk-card-default.uk-card-body
+			blockquote
+				p= cardTestimonialQuote
+			div(uk-grid)
+				div
+					img(src= cardTestimonialLogo alt= cardTestimonialCompany class="uk-border-circle" width="50" height="50" uk-svg)
+					span.uk-margin-small-left.uk-text-middle.uk-text-muted.fw-600
+						|#{cardTestimonialAuthor}, #{cardTestimonialCompany}

@@ -8,6 +8,11 @@
 // 3. Import UIkit.
 //@import "../node_modules/uikit/src/scss/uikit-theme.scss";
 
+// Section
+.uk-section-primary {
+	background: #3b0e3e;
+}
+
 // Main Navigation
 .tm-navbar-container:not(.uk-navbar-transparent) {
 	background: #fff;
@@ -26,10 +31,10 @@
 	letter-spacing: 0.05em;
 }
 .tm-highlight {
-	color: #1e87f0 !important;
+	color: #3b0e3e !important;
 
 	&:hover {
-		color: #0f6ecd !important;
+		color: #28072B !important;
 	}
 }
 
@@ -77,7 +82,7 @@
 	border-top: 2px solid;
 }
 .tm-border-top div:first-child .uk-card {
-	border-color: #1e87f0;
+	border-color: #3b0e3e;
 }
 .tm-border-top div:nth-child(2) .uk-card {
 	border-color: #1a1a1a;
