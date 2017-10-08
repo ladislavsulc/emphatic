@@ -38,7 +38,7 @@ mixin card-image(cardImageLink, cardImage, cardImageHeading, cardImageContent)
 //- Card with image on the left
 mixin card-image-left(cardLeftImageLink, cardLeftImage, cardLeftImageWidth, cardLeftImageHeight, cardLeftImageHeading, cardLeftImageContent)
 	div
-		div(class="uk-card uk-card-secondary uk-card-small uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid)
+		div(class="uk-card uk-card-small uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid)
 			.uk-card-media-left.uk-cover-container.uk-inline-clip.uk-transition-toggle
 				a(href= cardLeftImageLink)
 					img(src=(cardLeftImage) class="uk-transition-scale-up uk-transition-opaque" width= cardLeftImageWidth height= cardLeftImageHeight)

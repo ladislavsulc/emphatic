@@ -6,40 +6,75 @@ block vars
 
 block content
 	//- Hero Section
-	.uk-section-default.uk-light(uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":false}')
+	#hero.uk-section-default.uk-light(style="position: relative; overflow: hidden;" uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":false}')
 		.uk-background-secondary.uk-section.uk-flex.uk-flex-middle(uk-height-viewport="offset-top: true")
 			.uk-width-1-1
 				.uk-container
 					.uk-grid-margin(uk-grid)
-						div(class="uk-width-1-1@m")
-							.uk-margin.uk-text-center.uk-text-meta(uk-scrollspy-class)
-								| Get to know us
-							h1.uk-margin-remove-top.uk-text-center.uk-heading-primary(uk-scrollspy-class)
+						div(class="uk-width-1-2@m uk-width-1-1@s")
+							.uk-margin(uk-scrollspy-class)
+								em.uk-text-muted
+									| Digital Veterans
+							h1.uk-margin-remove-top.uk-text-left.uk-heading-primary(uk-scrollspy-class)
 								| Meet the people behind Horizon
-							.uk-margin.uk-width-xlarge.uk-margin-auto.uk-text-center(uk-scrollspy-class)
+							.uk-margin.uk-width-xlarge.uk-text-lead.fw-300(uk-scrollspy-class)
 								| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
 								| penatibus et magnis.
-							.uk-text-center.uk-margin-medium-top(uk-scrollspy-class)
+							.uk-margin-medium-top(uk-scrollspy-class)
 								a(class="uk-button uk-button-default uk-button-large" href="#") Case Studies
+						div(class="uk-width-1-2@m uk-visible@m")
+							img(src="/img/hp-animation.svg" alt="" width="400" height="1200" class="tm-hp-animation" uk-svg)
+
+	//- Featured Partners & Clients
+	.uk-section.uk-section-large.uk-section-primary.uk-text-center(uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":600}')
+		.uk-container
+			h2.uk-margin-medium-bottom
+				| What We Craft
+			div(class="tm-primary-text-lighter uk-child-width-expand@s" uk-grid)
+				div(uk-scrollspy-class)
+					span(uk-icon="icon: laptop; ratio: 3")
+					h3.uk-h4.uk-margin-small-top
+						| Websites
+					p Responsive websites. Great user experience and efficient design. Beautiful, blazing fast and secured.
+				div(uk-scrollspy-class)
+					span(uk-icon="icon: cart; ratio: 3")
+					h3.uk-h4.uk-margin-small-top
+						| E-Commmerce
+					p Fully featured open source or custom E-Commerce solutions optimized for smooth experience and conversion.
+				div(uk-scrollspy-class)
+					span(uk-icon="icon: server; ratio: 3")
+					h3.uk-h4.uk-margin-small-top
+						| Software & Apps
+					p Lorem ipsum dolor si amet, lorem ipsum dolor si amet, lorem ipsum dolor si amet.
+			.uk-margin-medium-top
+				a(class="uk-button uk-button-text" href="#")
+					| See Expertise
+					span(class="uk-margin-small-left" uk-icon="icon: arrow-right; ratio: 1")
 	//- Featured Partners & Clients
 	.uk-section.uk-section-large.uk-section-default.uk-text-center
 		.uk-container
-			h2 Partners / Clients
-			p.uk-text-lead.uk-margin-medium-bottom
-				| Some of our partners / clients we have worked <s>for</s> WITH.
-			div(class="uk-grid-divider uk-child-width-expand@s" uk-grid)
+			h2
+				| Some of our Partners
+			p.uk-text-lead.uk-margin-large-bottom.fw-300
+				| Featured clients or partners we have worked with 
+			div(class="uk-text-center uk-child-width-1-4@s grayscale" uk-grid)
 				div
-					| Lorem
+					a(href="http://www.adsl.cz" target="_blank")
+						img(src="/img/adsl.cz-logo.png" class="op-7" alt="Adsl.cz" height="53" width="160")
 				div
-					| Lorem
+					a(href="https://www.grafton.cz" target="_blank")
+						img(src="/img/grafton-logo.png" class="op-5" alt="Grafton Recruitment" height="53" width="160")
 				div
-					| Lorem
+					a(href="https://www.tealswan.com" target="_blank")
+						img(src="/img/teal-swan-logo.png" class="op-5" alt="Teal Swan" height="53" width="240")
 				div
-					| Lorem
+					a(href="http://www.gsk.cz" target="_blank")
+						img(src="/img/gsk-logo.png" class="op-5" alt="Teal Swan" height="66" width="66")
+
 	//- Featured Testimonials
-	.uk-section.uk-section-muted
+	//-.uk-section.uk-section-muted
 		.uk-container
 			div(class="uk-child-width-1-2@s uk-child-width-1-3@m uk-flex-center uk-text-small uk-grid-medium uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 300;")
 				+card-testimonial('Great and friendly cooperation, willing to walk the extra mile for the customer´s satisfaction, I can sincerely recommend for anything web related.','/img/richfox-logo_50x50.svg', 'Jiří Vojkovský', 'RichFox Capital')
 				+card-testimonial('Working with Emphatic was a very comforting experience. I felt taken care of while also feeling on the cutting edge of web design and development.','/img/teal-swan-logo_50x50.svg', 'Blake Dyer', 'COO at Teal Eye')
-	hr.uk-margin-remove
+	//-hr.uk-margin-remove

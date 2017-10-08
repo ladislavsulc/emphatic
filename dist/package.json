@@ -16,6 +16,6 @@
     "uikit": "3.0.0-beta.30"
   },
   "dependencies": {
-    "@pingy/cli": "^0.8.1"
+    "@pingy/cli": "^0.9.1"
   }
 }

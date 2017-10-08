@@ -1,0 +1,25 @@
+head
+	block vars
+	title #{title} | Emphatic
+
+	meta(charset="UTF-8")
+	meta(name="description" content=description)
+	meta(name="viewport" content="width=device-width")
+
+	meta(property="og:image" content=defaultImage)
+	meta(property="og:locale" content="en_US")
+	meta(property="og:type" content="website")
+	meta(property="og:title" content=title)
+	meta(property="og:description" content=description)
+	meta(property="og:url" content="https://www.emphatic.cz/")
+	meta(property="og:site_name" content="Emphatic")
+
+	link(rel="icon", type="image/png", href="/images/favicon.png")
+
+	//- UIkit CSS
+	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css")
+	//- Custom CSS
+	link(rel="stylesheet" href="/styles/main.css")
+
+	block css
+	block js
