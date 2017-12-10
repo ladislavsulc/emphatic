@@ -1,0 +1,46 @@
+.uk-navbar-container.tm-navbar-container(uk-sticky="show-on-up: true; animation: uk-animation-slide-top; media: 640")
+	.uk-container
+		nav(class="uk-navbar uk-visible@m")
+			.uk-navbar-left
+				a.uk-logo.uk-navbar-item(href="/")
+					img(src="/img/logo.svg" width="156" height="40" class="tm-logo" uk-svg)
+			div(class="uk-navbar-center uk-visible@m")
+				ul.uk-navbar-nav.tm-bolder.tm-spacing
+					li
+						a(href="/pages/expertise.html") Expertise
+					li
+						a(href="/pages/case-studies.html") Case Studies
+					li
+						a(href="/pages/about.html") About
+					li
+						a(href="/pages/contact.html") Contact
+			.uk-navbar-right
+				ul.uk-navbar-nav.tm-bolder.tm-spacing
+					li: a(href="#" class="tm-highlight") Get a Quote
+	
+	//- Mobile Navigation
+	div(class="tm-header-mobile uk-hidden@m")
+		nav.uk-navbar-container.uk-navbar
+			.uk-navbar-left
+				a.uk-logo.uk-navbar-item(href="/")
+					img(src="/img/logo.svg" width="156" height="40" class="tm-logo" uk-svg)
+			.uk-navbar-right
+				a(class="uk-navbar-toggle" href="#tm-mobile" uk-toggle="animation: true")
+					span.uk-margin-small-right Menu
+					div(uk-navbar-toggle-icon="" class="uk-navbar-toggle-icon uk-icon")
+		.uk-position-relative.uk-position-z-index
+			div(id="tm-mobile" class="uk-position-top" hidden)
+				.uk-background-primary.uk-light.uk-padding.uk-text-center
+					.uk-panel
+						ul.uk-nav.uk-nav-primary.uk-nav-center
+							li
+								a(href="/pages/expertise.html") Expertise
+							li
+								a(href="/pages/case-studies.html") Case Studies
+							li
+								a(href="/pages/about.html") About
+							li
+								a(href="/pages/contact.html") Contact
+							li
+								a(href="#") Get a Quote
+

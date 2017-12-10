@@ -46,15 +46,3 @@ mixin card-image-left(cardLeftImageLink, cardLeftImage, cardLeftImageWidth, card
 				a(href= cardLeftImageLink)
 					h3.uk-h4= cardLeftImageHeading
 				p: em.uk-text-muted= cardLeftImageContent
-
-//- Testimonial Card
-mixin card-testimonial(cardTestimonialQuote, cardTestimonialLogo, cardTestimonialAuthor, cardTestimonialCompany)
-	div
-		.uk-card.uk-card-small.uk-card-default.uk-card-body
-			blockquote
-				p= cardTestimonialQuote
-			div(uk-grid)
-				div
-					img(src= cardTestimonialLogo alt= cardTestimonialCompany class="uk-border-circle" width="50" height="50" uk-svg)
-					span.uk-margin-small-left.uk-text-middle.uk-text-muted.fw-600
-						|#{cardTestimonialAuthor}, #{cardTestimonialCompany}
