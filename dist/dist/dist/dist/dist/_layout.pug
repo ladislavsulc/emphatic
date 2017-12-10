@@ -1,0 +1,23 @@
+include mixins/_cards.pug
+
+doctype html
+html(lang="en-US")
+	- var defaultImage = "/img/default.jpg"
+	
+	// Header
+	include layout/_head.pug
+
+	block body
+	body
+
+		// Navigation
+		include layout/_nav.pug
+
+		// Main Content
+		block content
+
+		// Footer
+		include layout/_footer.pug
+
+		// Scripts
+		include layout/_scripts.pug
