@@ -45,6 +45,190 @@
     "type": "pug@2.0.0-rc.4::map::minify",
     "inputSha": [
       {
+        "file": "about.pug",
+        "sha": "6f868df7a7878172cd1850b020e2cf401e09b4b4"
+      },
+      {
+        "file": "_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "input": "about.pug",
+    "output": [
+      "about.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "case-studies.pug",
+        "sha": "1cd4fd86947624e9c328c6d5f512651dbf3ff02f"
+      },
+      {
+        "file": "_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
+    "input": "case-studies.pug",
+    "output": [
+      "case-studies.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "contact.pug",
+        "sha": "04b11dc200cfa521e0766b3feb090fb9accd7038"
+      },
+      {
+        "file": "_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "input": "contact.pug",
+    "output": [
+      "contact.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "expertise.pug",
+        "sha": "c646166806b5cc58e3340c4d9c9fd4e059b270d9"
+      },
+      {
+        "file": "_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "input": "expertise.pug",
+    "output": [
+      "expertise.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
         "file": "index.pug",
         "sha": "75b9ea06bff94bdd40b0077fae7a0aa5035bd95c"
       },
@@ -62,7 +246,7 @@
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "layout/_footer.pug",
@@ -78,10 +262,10 @@
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
+    "outputSha": "30da8ca80da69d8f67c8ae77301f86fd7ac19dc7",
     "input": "index.pug",
     "output": [
       "index.html"
@@ -134,10 +318,10 @@
     "inputSha": [
       {
         "file": "dist/index.html",
-        "sha": "dbad5d47293991934cbb1a739b89dda890f0e835"
+        "sha": "30da8ca80da69d8f67c8ae77301f86fd7ac19dc7"
       }
     ],
-    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
+    "outputSha": "30da8ca80da69d8f67c8ae77301f86fd7ac19dc7",
     "input": "dist/index.html",
     "output": [
       "dist/index.html"
@@ -164,7 +348,7 @@
       },
       {
         "file": "dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
       },
       {
         "file": "dist/layout/_footer.pug",
@@ -183,7 +367,7 @@
         "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
       }
     ],
-    "outputSha": "172de7cc33d0e4af23406740bd643a139969766f",
+    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
     "input": "dist/index.pug",
     "output": [
       "dist/index.html"
@@ -222,10 +406,10 @@
     "inputSha": [
       {
         "file": "layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       }
     ],
-    "outputSha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0",
+    "outputSha": "6f054067fb84fad57a79afa288f0bf5112fa562f",
     "input": "layout/_nav.pug",
     "output": [
       "layout/_nav.pug"
@@ -236,10 +420,10 @@
     "inputSha": [
       {
         "file": "layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6",
+    "outputSha": "21029507727534f961bc7c84a5d5fdc24471a41b",
     "input": "layout/_scripts.pug",
     "output": [
       "layout/_scripts.pug"
@@ -263,20 +447,6 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      }
-    ],
-    "outputSha": "6327d70377ee6709bf34062db0d1438661cc9c63",
-    "input": "mixins/_footer-social-links.pug",
-    "output": [
-      "mixins/_footer-social-links.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "mixins/_footer-links.pug",
         "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
       }
@@ -288,202 +458,17 @@
     ]
   },
   {
-    "type": "node-sass@4.5.3::autoprefix=last 2 versions::map::minify",
+    "type": "::map::minify",
     "inputSha": [
-      {
-        "file": "styles/main.scss",
-        "sha": "ec395d7229355aa2cabbd383d9f06789dc95d92f"
-      }
-    ],
-    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
-    "input": "styles/main.scss",
-    "output": [
-      "styles/main.css.map",
-      "styles/main.css"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "pages/about.pug",
-        "sha": "f9e00272f6a4d4b1d4153303f55949c3f51fbfc4"
-      },
-      {
-        "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
-      },
-      {
-        "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
       {
         "file": "mixins/_footer-social-links.pug",
         "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
       }
     ],
-    "outputSha": "8e7a494ba5624a9b5d913a32acb9810d80b76097",
-    "input": "pages/about.pug",
+    "outputSha": "6327d70377ee6709bf34062db0d1438661cc9c63",
+    "input": "mixins/_footer-social-links.pug",
     "output": [
-      "pages/about.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "pages/case-studies.pug",
-        "sha": "a1951187597070bffffecc711b96d5aa16f12774"
-      },
-      {
-        "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
-      },
-      {
-        "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "c433ae051143cfcc37b4dbc747226f753b6e6242",
-    "input": "pages/case-studies.pug",
-    "output": [
-      "pages/case-studies.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "pages/contact.pug",
-        "sha": "8090b1f11248a02b11555baf69b6543cb8caa734"
-      },
-      {
-        "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
-      },
-      {
-        "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "bffc7e7039361a4e6d062c4a97c583e9efdfa917",
-    "input": "pages/contact.pug",
-    "output": [
-      "pages/contact.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "pages/expertise.pug",
-        "sha": "eb131fd331d20e149cf9054621209b61541c6a72"
-      },
-      {
-        "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
-      },
-      {
-        "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92",
-    "input": "pages/expertise.pug",
-    "output": [
-      "pages/expertise.html"
+      "mixins/_footer-social-links.pug"
     ]
   },
   {
@@ -499,6 +484,21 @@
     "output": [
       "scripts/main.js.map",
       "scripts/main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::autoprefix=last 2 versions::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "ec395d7229355aa2cabbd383d9f06789dc95d92f"
+      }
+    ],
+    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
     ]
   },
   {
@@ -519,20 +519,6 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      }
-    ],
-    "outputSha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea",
-    "input": "dist/dist/_layout.pug",
-    "output": [
-      "dist/dist/_layout.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "dist/dist/_oldindex.html",
         "sha": "7c5b072e2f60bbe7965288f217d0025e0b624f7b"
       }
@@ -547,11 +533,25 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/index.html",
-        "sha": "172de7cc33d0e4af23406740bd643a139969766f"
+        "file": "dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
       }
     ],
-    "outputSha": "172de7cc33d0e4af23406740bd643a139969766f",
+    "outputSha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea",
+    "input": "dist/dist/_layout.pug",
+    "output": [
+      "dist/dist/_layout.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/index.html",
+        "sha": "dbad5d47293991934cbb1a739b89dda890f0e835"
+      }
+    ],
+    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
     "input": "dist/dist/index.html",
     "output": [
       "dist/dist/index.html"
@@ -578,7 +578,7 @@
       },
       {
         "file": "dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
       },
       {
         "file": "dist/dist/layout/_footer.pug",
@@ -597,66 +597,10 @@
         "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
       }
     ],
-    "outputSha": "172de7cc33d0e4af23406740bd643a139969766f",
+    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
     "input": "dist/dist/index.pug",
     "output": [
       "dist/dist/index.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      }
-    ],
-    "outputSha": "e8c869377416b9a979261992c1fbb6525d1060fe",
-    "input": "dist/layout/_footer.pug",
-    "output": [
-      "dist/layout/_footer.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      }
-    ],
-    "outputSha": "1125950f60259cbc1eeaa5da29160d83e695ecce",
-    "input": "dist/layout/_head.pug",
-    "output": [
-      "dist/layout/_head.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
-      }
-    ],
-    "outputSha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0",
-    "input": "dist/layout/_nav.pug",
-    "output": [
-      "dist/layout/_nav.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6",
-    "input": "dist/layout/_scripts.pug",
-    "output": [
-      "dist/layout/_scripts.pug"
     ]
   },
   {
@@ -705,11 +649,67 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/pages/about.html",
-        "sha": "ddb606e2e50407051820a16671d10cd1e0efb038"
+        "file": "dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
       }
     ],
-    "outputSha": "ddb606e2e50407051820a16671d10cd1e0efb038",
+    "outputSha": "e8c869377416b9a979261992c1fbb6525d1060fe",
+    "input": "dist/layout/_footer.pug",
+    "output": [
+      "dist/layout/_footer.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      }
+    ],
+    "outputSha": "1125950f60259cbc1eeaa5da29160d83e695ecce",
+    "input": "dist/layout/_head.pug",
+    "output": [
+      "dist/layout/_head.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      }
+    ],
+    "outputSha": "6f054067fb84fad57a79afa288f0bf5112fa562f",
+    "input": "dist/layout/_nav.pug",
+    "output": [
+      "dist/layout/_nav.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "21029507727534f961bc7c84a5d5fdc24471a41b",
+    "input": "dist/layout/_scripts.pug",
+    "output": [
+      "dist/layout/_scripts.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/pages/about.html",
+        "sha": "8e7a494ba5624a9b5d913a32acb9810d80b76097"
+      }
+    ],
+    "outputSha": "8e7a494ba5624a9b5d913a32acb9810d80b76097",
     "input": "dist/pages/about.html",
     "output": [
       "dist/pages/about.html"
@@ -736,7 +736,7 @@
       },
       {
         "file": "dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/layout/_footer.pug",
@@ -752,10 +752,10 @@
       },
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "8e7a494ba5624a9b5d913a32acb9810d80b76097",
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
     "input": "dist/pages/about.pug",
     "output": [
       "dist/pages/about.html"
@@ -796,7 +796,7 @@
       },
       {
         "file": "dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/layout/_footer.pug",
@@ -812,10 +812,10 @@
       },
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "c433ae051143cfcc37b4dbc747226f753b6e6242",
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
     "input": "dist/pages/case-studies.pug",
     "output": [
       "dist/pages/case-studies.html"
@@ -826,10 +826,10 @@
     "inputSha": [
       {
         "file": "dist/pages/contact.html",
-        "sha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9"
+        "sha": "bffc7e7039361a4e6d062c4a97c583e9efdfa917"
       }
     ],
-    "outputSha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9",
+    "outputSha": "bffc7e7039361a4e6d062c4a97c583e9efdfa917",
     "input": "dist/pages/contact.html",
     "output": [
       "dist/pages/contact.html"
@@ -856,7 +856,7 @@
       },
       {
         "file": "dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/layout/_footer.pug",
@@ -872,27 +872,13 @@
       },
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "bffc7e7039361a4e6d062c4a97c583e9efdfa917",
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
     "input": "dist/pages/contact.pug",
     "output": [
       "dist/pages/contact.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/pages/expertise.html",
-        "sha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92"
-      }
-    ],
-    "outputSha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92",
-    "input": "dist/pages/expertise.html",
-    "output": [
-      "dist/pages/expertise.html"
     ]
   },
   {
@@ -916,7 +902,7 @@
       },
       {
         "file": "dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/layout/_footer.pug",
@@ -932,11 +918,25 @@
       },
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "input": "dist/pages/expertise.pug",
+    "output": [
+      "dist/pages/expertise.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/pages/expertise.html",
+        "sha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92"
       }
     ],
     "outputSha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92",
-    "input": "dist/pages/expertise.pug",
+    "input": "dist/pages/expertise.html",
     "output": [
       "dist/pages/expertise.html"
     ]
@@ -1004,20 +1004,6 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      }
-    ],
-    "outputSha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea",
-    "input": "dist/dist/dist/_layout.pug",
-    "output": [
-      "dist/dist/dist/_layout.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "dist/dist/dist/_oldindex.html",
         "sha": "7c5b072e2f60bbe7965288f217d0025e0b624f7b"
       }
@@ -1032,11 +1018,25 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/index.html",
-        "sha": "172de7cc33d0e4af23406740bd643a139969766f"
+        "file": "dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
       }
     ],
-    "outputSha": "172de7cc33d0e4af23406740bd643a139969766f",
+    "outputSha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea",
+    "input": "dist/dist/dist/_layout.pug",
+    "output": [
+      "dist/dist/dist/_layout.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/index.html",
+        "sha": "dbad5d47293991934cbb1a739b89dda890f0e835"
+      }
+    ],
+    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
     "input": "dist/dist/dist/index.html",
     "output": [
       "dist/dist/dist/index.html"
@@ -1063,7 +1063,7 @@
       },
       {
         "file": "dist/dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
       },
       {
         "file": "dist/dist/dist/layout/_footer.pug",
@@ -1082,24 +1082,10 @@
         "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
       }
     ],
-    "outputSha": "172de7cc33d0e4af23406740bd643a139969766f",
+    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
     "input": "dist/dist/dist/index.pug",
     "output": [
       "dist/dist/dist/index.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      }
-    ],
-    "outputSha": "e8c869377416b9a979261992c1fbb6525d1060fe",
-    "input": "dist/dist/layout/_footer.pug",
-    "output": [
-      "dist/dist/layout/_footer.pug"
     ]
   },
   {
@@ -1120,11 +1106,25 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "file": "dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
       }
     ],
-    "outputSha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0",
+    "outputSha": "e8c869377416b9a979261992c1fbb6525d1060fe",
+    "input": "dist/dist/layout/_footer.pug",
+    "output": [
+      "dist/dist/layout/_footer.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      }
+    ],
+    "outputSha": "6f054067fb84fad57a79afa288f0bf5112fa562f",
     "input": "dist/dist/layout/_nav.pug",
     "output": [
       "dist/dist/layout/_nav.pug"
@@ -1135,13 +1135,28 @@
     "inputSha": [
       {
         "file": "dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6",
+    "outputSha": "21029507727534f961bc7c84a5d5fdc24471a41b",
     "input": "dist/dist/layout/_scripts.pug",
     "output": [
       "dist/dist/layout/_scripts.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/scripts/main.js",
+        "sha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd"
+      }
+    ],
+    "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
+    "input": "dist/dist/scripts/main.js",
+    "output": [
+      "dist/dist/scripts/main.js.map",
+      "dist/dist/scripts/main.js"
     ]
   },
   {
@@ -1191,10 +1206,10 @@
     "inputSha": [
       {
         "file": "dist/dist/pages/about.html",
-        "sha": "ddb606e2e50407051820a16671d10cd1e0efb038"
+        "sha": "f96c1077177aa404d10d59061738aba180343805"
       }
     ],
-    "outputSha": "ddb606e2e50407051820a16671d10cd1e0efb038",
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
     "input": "dist/dist/pages/about.html",
     "output": [
       "dist/dist/pages/about.html"
@@ -1221,7 +1236,7 @@
       },
       {
         "file": "dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/layout/_footer.pug",
@@ -1237,10 +1252,10 @@
       },
       {
         "file": "dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "ddb606e2e50407051820a16671d10cd1e0efb038",
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
     "input": "dist/dist/pages/about.pug",
     "output": [
       "dist/dist/pages/about.html"
@@ -1251,10 +1266,10 @@
     "inputSha": [
       {
         "file": "dist/dist/pages/case-studies.html",
-        "sha": "c433ae051143cfcc37b4dbc747226f753b6e6242"
+        "sha": "f73fea698722929ee1b581b768eb6bc6f23f31b1"
       }
     ],
-    "outputSha": "c433ae051143cfcc37b4dbc747226f753b6e6242",
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
     "input": "dist/dist/pages/case-studies.html",
     "output": [
       "dist/dist/pages/case-studies.html"
@@ -1281,7 +1296,7 @@
       },
       {
         "file": "dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/layout/_footer.pug",
@@ -1297,10 +1312,10 @@
       },
       {
         "file": "dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "3e4701ea168bef6bd8753eb4aef870faaccadac3",
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
     "input": "dist/dist/pages/case-studies.pug",
     "output": [
       "dist/dist/pages/case-studies.html"
@@ -1311,10 +1326,10 @@
     "inputSha": [
       {
         "file": "dist/dist/pages/contact.html",
-        "sha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9"
+        "sha": "2419007d0ccb758e4f73b60a198338791152f5f4"
       }
     ],
-    "outputSha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9",
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
     "input": "dist/dist/pages/contact.html",
     "output": [
       "dist/dist/pages/contact.html"
@@ -1341,7 +1356,7 @@
       },
       {
         "file": "dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/layout/_footer.pug",
@@ -1357,10 +1372,10 @@
       },
       {
         "file": "dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9",
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
     "input": "dist/dist/pages/contact.pug",
     "output": [
       "dist/dist/pages/contact.html"
@@ -1401,7 +1416,7 @@
       },
       {
         "file": "dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/layout/_footer.pug",
@@ -1417,10 +1432,10 @@
       },
       {
         "file": "dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "85f18bc7b23ae85666a38450d31a28fe0de7c48e",
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
     "input": "dist/dist/pages/expertise.pug",
     "output": [
       "dist/dist/pages/expertise.html"
@@ -1460,15 +1475,56 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/scripts/main.js",
-        "sha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd"
+        "file": "dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
       }
     ],
-    "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
-    "input": "dist/dist/scripts/main.js",
+    "outputSha": "1125950f60259cbc1eeaa5da29160d83e695ecce",
+    "input": "dist/dist/dist/layout/_head.pug",
     "output": [
-      "dist/dist/scripts/main.js.map",
-      "dist/dist/scripts/main.js"
+      "dist/dist/dist/layout/_head.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      }
+    ],
+    "outputSha": "e8c869377416b9a979261992c1fbb6525d1060fe",
+    "input": "dist/dist/dist/layout/_footer.pug",
+    "output": [
+      "dist/dist/dist/layout/_footer.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      }
+    ],
+    "outputSha": "6f054067fb84fad57a79afa288f0bf5112fa562f",
+    "input": "dist/dist/dist/layout/_nav.pug",
+    "output": [
+      "dist/dist/dist/layout/_nav.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "21029507727534f961bc7c84a5d5fdc24471a41b",
+    "input": "dist/dist/dist/layout/_scripts.pug",
+    "output": [
+      "dist/dist/dist/layout/_scripts.pug"
     ]
   },
   {
@@ -1548,7 +1604,7 @@
       },
       {
         "file": "dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/dist/dist/layout/_footer.pug",
@@ -1564,10 +1620,10 @@
       },
       {
         "file": "dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "172de7cc33d0e4af23406740bd643a139969766f",
+    "outputSha": "30da8ca80da69d8f67c8ae77301f86fd7ac19dc7",
     "input": "dist/dist/dist/dist/index.pug",
     "output": [
       "dist/dist/dist/dist/index.html"
@@ -1619,67 +1675,11 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      }
-    ],
-    "outputSha": "e8c869377416b9a979261992c1fbb6525d1060fe",
-    "input": "dist/dist/dist/layout/_footer.pug",
-    "output": [
-      "dist/dist/dist/layout/_footer.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      }
-    ],
-    "outputSha": "1125950f60259cbc1eeaa5da29160d83e695ecce",
-    "input": "dist/dist/dist/layout/_head.pug",
-    "output": [
-      "dist/dist/dist/layout/_head.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
-      }
-    ],
-    "outputSha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0",
-    "input": "dist/dist/dist/layout/_nav.pug",
-    "output": [
-      "dist/dist/dist/layout/_nav.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6",
-    "input": "dist/dist/dist/layout/_scripts.pug",
-    "output": [
-      "dist/dist/dist/layout/_scripts.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "dist/dist/dist/pages/about.html",
-        "sha": "ddb606e2e50407051820a16671d10cd1e0efb038"
+        "sha": "f96c1077177aa404d10d59061738aba180343805"
       }
     ],
-    "outputSha": "ddb606e2e50407051820a16671d10cd1e0efb038",
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
     "input": "dist/dist/dist/pages/about.html",
     "output": [
       "dist/dist/dist/pages/about.html"
@@ -1706,7 +1706,7 @@
       },
       {
         "file": "dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/dist/layout/_footer.pug",
@@ -1722,10 +1722,10 @@
       },
       {
         "file": "dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "8e7a494ba5624a9b5d913a32acb9810d80b76097",
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
     "input": "dist/dist/dist/pages/about.pug",
     "output": [
       "dist/dist/dist/pages/about.html"
@@ -1736,10 +1736,10 @@
     "inputSha": [
       {
         "file": "dist/dist/dist/pages/case-studies.html",
-        "sha": "c433ae051143cfcc37b4dbc747226f753b6e6242"
+        "sha": "f73fea698722929ee1b581b768eb6bc6f23f31b1"
       }
     ],
-    "outputSha": "c433ae051143cfcc37b4dbc747226f753b6e6242",
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
     "input": "dist/dist/dist/pages/case-studies.html",
     "output": [
       "dist/dist/dist/pages/case-studies.html"
@@ -1766,7 +1766,7 @@
       },
       {
         "file": "dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/dist/layout/_footer.pug",
@@ -1782,10 +1782,10 @@
       },
       {
         "file": "dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "c433ae051143cfcc37b4dbc747226f753b6e6242",
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
     "input": "dist/dist/dist/pages/case-studies.pug",
     "output": [
       "dist/dist/dist/pages/case-studies.html"
@@ -1796,10 +1796,10 @@
     "inputSha": [
       {
         "file": "dist/dist/dist/pages/contact.html",
-        "sha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9"
+        "sha": "2419007d0ccb758e4f73b60a198338791152f5f4"
       }
     ],
-    "outputSha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9",
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
     "input": "dist/dist/dist/pages/contact.html",
     "output": [
       "dist/dist/dist/pages/contact.html"
@@ -1826,7 +1826,7 @@
       },
       {
         "file": "dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/dist/layout/_footer.pug",
@@ -1842,10 +1842,10 @@
       },
       {
         "file": "dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "bffc7e7039361a4e6d062c4a97c583e9efdfa917",
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
     "input": "dist/dist/dist/pages/contact.pug",
     "output": [
       "dist/dist/dist/pages/contact.html"
@@ -1856,10 +1856,10 @@
     "inputSha": [
       {
         "file": "dist/dist/dist/pages/expertise.html",
-        "sha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92"
+        "sha": "939586799c7cc252457662a4ffa1692be7a3b3ad"
       }
     ],
-    "outputSha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92",
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
     "input": "dist/dist/dist/pages/expertise.html",
     "output": [
       "dist/dist/dist/pages/expertise.html"
@@ -1886,7 +1886,7 @@
       },
       {
         "file": "dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
         "file": "dist/dist/dist/layout/_footer.pug",
@@ -1902,10 +1902,10 @@
       },
       {
         "file": "dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92",
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
     "input": "dist/dist/dist/pages/expertise.pug",
     "output": [
       "dist/dist/dist/pages/expertise.html"
@@ -2003,10 +2003,10 @@
     "inputSha": [
       {
         "file": "dist/dist/dist/dist/dist/index.html",
-        "sha": "172de7cc33d0e4af23406740bd643a139969766f"
+        "sha": "30da8ca80da69d8f67c8ae77301f86fd7ac19dc7"
       }
     ],
-    "outputSha": "172de7cc33d0e4af23406740bd643a139969766f",
+    "outputSha": "30da8ca80da69d8f67c8ae77301f86fd7ac19dc7",
     "input": "dist/dist/dist/dist/dist/index.html",
     "output": [
       "dist/dist/dist/dist/dist/index.html"
@@ -2033,7 +2033,7 @@
       },
       {
         "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
       },
       {
         "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
@@ -2052,24 +2052,10 @@
         "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
       }
     ],
-    "outputSha": "172de7cc33d0e4af23406740bd643a139969766f",
+    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
     "input": "dist/dist/dist/dist/dist/index.pug",
     "output": [
       "dist/dist/dist/dist/dist/index.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      }
-    ],
-    "outputSha": "1125950f60259cbc1eeaa5da29160d83e695ecce",
-    "input": "dist/dist/dist/dist/layout/_head.pug",
-    "output": [
-      "dist/dist/dist/dist/layout/_head.pug"
     ]
   },
   {
@@ -2090,11 +2076,25 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
+        "file": "dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
       }
     ],
-    "outputSha": "eafb599b67bc6005f22c145cb0229469ec941559",
+    "outputSha": "1125950f60259cbc1eeaa5da29160d83e695ecce",
+    "input": "dist/dist/dist/dist/layout/_head.pug",
+    "output": [
+      "dist/dist/dist/dist/layout/_head.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      }
+    ],
+    "outputSha": "6f054067fb84fad57a79afa288f0bf5112fa562f",
     "input": "dist/dist/dist/dist/layout/_nav.pug",
     "output": [
       "dist/dist/dist/dist/layout/_nav.pug"
@@ -2105,10 +2105,10 @@
     "inputSha": [
       {
         "file": "dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6",
+    "outputSha": "21029507727534f961bc7c84a5d5fdc24471a41b",
     "input": "dist/dist/dist/dist/layout/_scripts.pug",
     "output": [
       "dist/dist/dist/dist/layout/_scripts.pug"
@@ -2154,246 +2154,6 @@
     "input": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
     "output": [
       "dist/dist/dist/dist/mixins/_footer-social-links.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/pages/about.html",
-        "sha": "ddb606e2e50407051820a16671d10cd1e0efb038"
-      }
-    ],
-    "outputSha": "ddb606e2e50407051820a16671d10cd1e0efb038",
-    "input": "dist/dist/dist/dist/pages/about.html",
-    "output": [
-      "dist/dist/dist/dist/pages/about.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/pages/about.pug",
-        "sha": "f9e00272f6a4d4b1d4153303f55949c3f51fbfc4"
-      },
-      {
-        "file": "dist/dist/dist/dist/_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "ddb606e2e50407051820a16671d10cd1e0efb038",
-    "input": "dist/dist/dist/dist/pages/about.pug",
-    "output": [
-      "dist/dist/dist/dist/pages/about.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/pages/case-studies.html",
-        "sha": "c433ae051143cfcc37b4dbc747226f753b6e6242"
-      }
-    ],
-    "outputSha": "c433ae051143cfcc37b4dbc747226f753b6e6242",
-    "input": "dist/dist/dist/dist/pages/case-studies.html",
-    "output": [
-      "dist/dist/dist/dist/pages/case-studies.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/pages/case-studies.pug",
-        "sha": "a1951187597070bffffecc711b96d5aa16f12774"
-      },
-      {
-        "file": "dist/dist/dist/dist/_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "3e4701ea168bef6bd8753eb4aef870faaccadac3",
-    "input": "dist/dist/dist/dist/pages/case-studies.pug",
-    "output": [
-      "dist/dist/dist/dist/pages/case-studies.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/pages/contact.html",
-        "sha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9"
-      }
-    ],
-    "outputSha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9",
-    "input": "dist/dist/dist/dist/pages/contact.html",
-    "output": [
-      "dist/dist/dist/dist/pages/contact.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/pages/contact.pug",
-        "sha": "8090b1f11248a02b11555baf69b6543cb8caa734"
-      },
-      {
-        "file": "dist/dist/dist/dist/_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9",
-    "input": "dist/dist/dist/dist/pages/contact.pug",
-    "output": [
-      "dist/dist/dist/dist/pages/contact.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/pages/expertise.html",
-        "sha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92"
-      }
-    ],
-    "outputSha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92",
-    "input": "dist/dist/dist/dist/pages/expertise.html",
-    "output": [
-      "dist/dist/dist/dist/pages/expertise.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/pages/expertise.pug",
-        "sha": "eb131fd331d20e149cf9054621209b61541c6a72"
-      },
-      {
-        "file": "dist/dist/dist/dist/_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "eafb599b67bc6005f22c145cb0229469ec941559"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "85f18bc7b23ae85666a38450d31a28fe0de7c48e",
-    "input": "dist/dist/dist/dist/pages/expertise.pug",
-    "output": [
-      "dist/dist/dist/dist/pages/expertise.html"
     ]
   },
   {
@@ -2445,6 +2205,348 @@
     "type": "::map::minify",
     "inputSha": [
       {
+        "file": "dist/dist/dist/dist/pages/about.html",
+        "sha": "f96c1077177aa404d10d59061738aba180343805"
+      }
+    ],
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "input": "dist/dist/dist/dist/pages/about.html",
+    "output": [
+      "dist/dist/dist/dist/pages/about.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/pages/about.pug",
+        "sha": "f9e00272f6a4d4b1d4153303f55949c3f51fbfc4"
+      },
+      {
+        "file": "dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "input": "dist/dist/dist/dist/pages/about.pug",
+    "output": [
+      "dist/dist/dist/dist/pages/about.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/pages/case-studies.html",
+        "sha": "f73fea698722929ee1b581b768eb6bc6f23f31b1"
+      }
+    ],
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
+    "input": "dist/dist/dist/dist/pages/case-studies.html",
+    "output": [
+      "dist/dist/dist/dist/pages/case-studies.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/pages/case-studies.pug",
+        "sha": "a1951187597070bffffecc711b96d5aa16f12774"
+      },
+      {
+        "file": "dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
+    "input": "dist/dist/dist/dist/pages/case-studies.pug",
+    "output": [
+      "dist/dist/dist/dist/pages/case-studies.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/pages/contact.html",
+        "sha": "2419007d0ccb758e4f73b60a198338791152f5f4"
+      }
+    ],
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "input": "dist/dist/dist/dist/pages/contact.html",
+    "output": [
+      "dist/dist/dist/dist/pages/contact.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/pages/contact.pug",
+        "sha": "8090b1f11248a02b11555baf69b6543cb8caa734"
+      },
+      {
+        "file": "dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "input": "dist/dist/dist/dist/pages/contact.pug",
+    "output": [
+      "dist/dist/dist/dist/pages/contact.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/pages/expertise.html",
+        "sha": "939586799c7cc252457662a4ffa1692be7a3b3ad"
+      }
+    ],
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "input": "dist/dist/dist/dist/pages/expertise.html",
+    "output": [
+      "dist/dist/dist/dist/pages/expertise.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/pages/expertise.pug",
+        "sha": "eb131fd331d20e149cf9054621209b61541c6a72"
+      },
+      {
+        "file": "dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "input": "dist/dist/dist/dist/pages/expertise.pug",
+    "output": [
+      "dist/dist/dist/dist/pages/expertise.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/_404.html",
+        "sha": "376ce71673efd712d4f763e354fc3021ee994160"
+      }
+    ],
+    "outputSha": "376ce71673efd712d4f763e354fc3021ee994160",
+    "input": "dist/dist/dist/dist/dist/dist/_404.html",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/_404.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      }
+    ],
+    "outputSha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea",
+    "input": "dist/dist/dist/dist/dist/dist/_layout.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/_layout.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/_oldindex.html",
+        "sha": "7c5b072e2f60bbe7965288f217d0025e0b624f7b"
+      }
+    ],
+    "outputSha": "7c5b072e2f60bbe7965288f217d0025e0b624f7b",
+    "input": "dist/dist/dist/dist/dist/dist/_oldindex.html",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/_oldindex.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/index.html",
+        "sha": "dbad5d47293991934cbb1a739b89dda890f0e835"
+      }
+    ],
+    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
+    "input": "dist/dist/dist/dist/dist/dist/index.html",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/index.pug",
+        "sha": "75b9ea06bff94bdd40b0077fae7a0aa5035bd95c"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+      }
+    ],
+    "outputSha": "dbad5d47293991934cbb1a739b89dda890f0e835",
+    "input": "dist/dist/dist/dist/dist/dist/index.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
         "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
         "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
       }
@@ -2474,10 +2576,10 @@
     "inputSha": [
       {
         "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       }
     ],
-    "outputSha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0",
+    "outputSha": "6f054067fb84fad57a79afa288f0bf5112fa562f",
     "input": "dist/dist/dist/dist/dist/layout/_nav.pug",
     "output": [
       "dist/dist/dist/dist/dist/layout/_nav.pug"
@@ -2488,10 +2590,10 @@
     "inputSha": [
       {
         "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6",
+    "outputSha": "21029507727534f961bc7c84a5d5fdc24471a41b",
     "input": "dist/dist/dist/dist/dist/layout/_scripts.pug",
     "output": [
       "dist/dist/dist/dist/dist/layout/_scripts.pug"
@@ -2537,6 +2639,246 @@
     "input": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
     "output": [
       "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/pages/about.html",
+        "sha": "f96c1077177aa404d10d59061738aba180343805"
+      }
+    ],
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "input": "dist/dist/dist/dist/dist/pages/about.html",
+    "output": [
+      "dist/dist/dist/dist/dist/pages/about.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/pages/about.pug",
+        "sha": "f9e00272f6a4d4b1d4153303f55949c3f51fbfc4"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "input": "dist/dist/dist/dist/dist/pages/about.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/pages/about.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/pages/case-studies.html",
+        "sha": "f73fea698722929ee1b581b768eb6bc6f23f31b1"
+      }
+    ],
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
+    "input": "dist/dist/dist/dist/dist/pages/case-studies.html",
+    "output": [
+      "dist/dist/dist/dist/dist/pages/case-studies.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/pages/case-studies.pug",
+        "sha": "a1951187597070bffffecc711b96d5aa16f12774"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
+    "input": "dist/dist/dist/dist/dist/pages/case-studies.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/pages/case-studies.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/pages/contact.html",
+        "sha": "2419007d0ccb758e4f73b60a198338791152f5f4"
+      }
+    ],
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "input": "dist/dist/dist/dist/dist/pages/contact.html",
+    "output": [
+      "dist/dist/dist/dist/dist/pages/contact.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/pages/contact.pug",
+        "sha": "8090b1f11248a02b11555baf69b6543cb8caa734"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "input": "dist/dist/dist/dist/dist/pages/contact.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/pages/contact.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/pages/expertise.html",
+        "sha": "939586799c7cc252457662a4ffa1692be7a3b3ad"
+      }
+    ],
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "input": "dist/dist/dist/dist/dist/pages/expertise.html",
+    "output": [
+      "dist/dist/dist/dist/dist/pages/expertise.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/pages/expertise.pug",
+        "sha": "eb131fd331d20e149cf9054621209b61541c6a72"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "input": "dist/dist/dist/dist/dist/pages/expertise.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/pages/expertise.html"
     ]
   },
   {
@@ -2588,240 +2930,383 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/dist/dist/pages/about.html",
-        "sha": "ddb606e2e50407051820a16671d10cd1e0efb038"
+        "file": "dist/dist/dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
       }
     ],
-    "outputSha": "ddb606e2e50407051820a16671d10cd1e0efb038",
-    "input": "dist/dist/dist/dist/dist/pages/about.html",
+    "outputSha": "e8c869377416b9a979261992c1fbb6525d1060fe",
+    "input": "dist/dist/dist/dist/dist/dist/layout/_footer.pug",
     "output": [
-      "dist/dist/dist/dist/dist/pages/about.html"
+      "dist/dist/dist/dist/dist/dist/layout/_footer.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      }
+    ],
+    "outputSha": "1125950f60259cbc1eeaa5da29160d83e695ecce",
+    "input": "dist/dist/dist/dist/dist/dist/layout/_head.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/layout/_head.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      }
+    ],
+    "outputSha": "6f054067fb84fad57a79afa288f0bf5112fa562f",
+    "input": "dist/dist/dist/dist/dist/dist/layout/_nav.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/layout/_nav.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "21029507727534f961bc7c84a5d5fdc24471a41b",
+    "input": "dist/dist/dist/dist/dist/dist/layout/_scripts.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/layout/_scripts.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      }
+    ],
+    "outputSha": "a1e08385aa653637e1c3e86cf2b81b09a997222d",
+    "input": "dist/dist/dist/dist/dist/dist/mixins/_cards.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/mixins/_cards.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      }
+    ],
+    "outputSha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf",
+    "input": "dist/dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/mixins/_footer-links.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      }
+    ],
+    "outputSha": "6327d70377ee6709bf34062db0d1438661cc9c63",
+    "input": "dist/dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/mixins/_footer-social-links.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/pages/about.html",
+        "sha": "f96c1077177aa404d10d59061738aba180343805"
+      }
+    ],
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "input": "dist/dist/dist/dist/dist/dist/pages/about.html",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/pages/about.html"
     ]
   },
   {
     "type": "pug@2.0.0-rc.4::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/dist/dist/pages/about.pug",
+        "file": "dist/dist/dist/dist/dist/dist/pages/about.pug",
         "sha": "f9e00272f6a4d4b1d4153303f55949c3f51fbfc4"
       },
       {
-        "file": "dist/dist/dist/dist/dist/_layout.pug",
+        "file": "dist/dist/dist/dist/dist/dist/_layout.pug",
         "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_cards.pug",
         "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_head.pug",
+        "file": "dist/dist/dist/dist/dist/dist/layout/_head.pug",
         "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "file": "dist/dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
+        "file": "dist/dist/dist/dist/dist/dist/layout/_footer.pug",
         "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-links.pug",
         "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
         "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "file": "dist/dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "8e7a494ba5624a9b5d913a32acb9810d80b76097",
-    "input": "dist/dist/dist/dist/dist/pages/about.pug",
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "input": "dist/dist/dist/dist/dist/dist/pages/about.pug",
     "output": [
-      "dist/dist/dist/dist/dist/pages/about.html"
+      "dist/dist/dist/dist/dist/dist/pages/about.html"
     ]
   },
   {
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/dist/dist/pages/case-studies.html",
-        "sha": "c433ae051143cfcc37b4dbc747226f753b6e6242"
+        "file": "dist/dist/dist/dist/dist/dist/pages/case-studies.html",
+        "sha": "f73fea698722929ee1b581b768eb6bc6f23f31b1"
       }
     ],
-    "outputSha": "c433ae051143cfcc37b4dbc747226f753b6e6242",
-    "input": "dist/dist/dist/dist/dist/pages/case-studies.html",
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
+    "input": "dist/dist/dist/dist/dist/dist/pages/case-studies.html",
     "output": [
-      "dist/dist/dist/dist/dist/pages/case-studies.html"
+      "dist/dist/dist/dist/dist/dist/pages/case-studies.html"
     ]
   },
   {
     "type": "pug@2.0.0-rc.4::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/dist/dist/pages/case-studies.pug",
+        "file": "dist/dist/dist/dist/dist/dist/pages/case-studies.pug",
         "sha": "a1951187597070bffffecc711b96d5aa16f12774"
       },
       {
-        "file": "dist/dist/dist/dist/dist/_layout.pug",
+        "file": "dist/dist/dist/dist/dist/dist/_layout.pug",
         "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_cards.pug",
         "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_head.pug",
+        "file": "dist/dist/dist/dist/dist/dist/layout/_head.pug",
         "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "file": "dist/dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
+        "file": "dist/dist/dist/dist/dist/dist/layout/_footer.pug",
         "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-links.pug",
         "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
         "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "file": "dist/dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "c433ae051143cfcc37b4dbc747226f753b6e6242",
-    "input": "dist/dist/dist/dist/dist/pages/case-studies.pug",
+    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
+    "input": "dist/dist/dist/dist/dist/dist/pages/case-studies.pug",
     "output": [
-      "dist/dist/dist/dist/dist/pages/case-studies.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/dist/dist/dist/dist/pages/contact.pug",
-        "sha": "8090b1f11248a02b11555baf69b6543cb8caa734"
-      },
-      {
-        "file": "dist/dist/dist/dist/dist/_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
-      },
-      {
-        "file": "dist/dist/dist/dist/dist/mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
-      },
-      {
-        "file": "dist/dist/dist/dist/dist/layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
-      },
-      {
-        "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
-      },
-      {
-        "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
-      },
-      {
-        "file": "dist/dist/dist/dist/dist/mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
-      },
-      {
-        "file": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
-      },
-      {
-        "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
-      }
-    ],
-    "outputSha": "bffc7e7039361a4e6d062c4a97c583e9efdfa917",
-    "input": "dist/dist/dist/dist/dist/pages/contact.pug",
-    "output": [
-      "dist/dist/dist/dist/dist/pages/contact.html"
+      "dist/dist/dist/dist/dist/dist/pages/case-studies.html"
     ]
   },
   {
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/dist/dist/pages/contact.html",
-        "sha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9"
+        "file": "dist/dist/dist/dist/dist/dist/pages/contact.html",
+        "sha": "2419007d0ccb758e4f73b60a198338791152f5f4"
       }
     ],
-    "outputSha": "af932cbc3f96fbd4b9e0fead45874013fe9b43b9",
-    "input": "dist/dist/dist/dist/dist/pages/contact.html",
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "input": "dist/dist/dist/dist/dist/dist/pages/contact.html",
     "output": [
-      "dist/dist/dist/dist/dist/pages/contact.html"
+      "dist/dist/dist/dist/dist/dist/pages/contact.html"
     ]
   },
   {
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/dist/dist/pages/expertise.html",
-        "sha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92"
+        "file": "dist/dist/dist/dist/dist/dist/pages/expertise.html",
+        "sha": "939586799c7cc252457662a4ffa1692be7a3b3ad"
       }
     ],
-    "outputSha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92",
-    "input": "dist/dist/dist/dist/dist/pages/expertise.html",
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "input": "dist/dist/dist/dist/dist/dist/pages/expertise.html",
     "output": [
-      "dist/dist/dist/dist/dist/pages/expertise.html"
+      "dist/dist/dist/dist/dist/dist/pages/expertise.html"
     ]
   },
   {
     "type": "pug@2.0.0-rc.4::map::minify",
     "inputSha": [
       {
-        "file": "dist/dist/dist/dist/dist/pages/expertise.pug",
+        "file": "dist/dist/dist/dist/dist/dist/pages/expertise.pug",
         "sha": "eb131fd331d20e149cf9054621209b61541c6a72"
       },
       {
-        "file": "dist/dist/dist/dist/dist/_layout.pug",
+        "file": "dist/dist/dist/dist/dist/dist/_layout.pug",
         "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_cards.pug",
         "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_head.pug",
+        "file": "dist/dist/dist/dist/dist/dist/layout/_head.pug",
         "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_nav.pug",
-        "sha": "d3d73854cab9eff9c3b0387dad8aca5f4f6d8ca0"
+        "file": "dist/dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_footer.pug",
+        "file": "dist/dist/dist/dist/dist/dist/layout/_footer.pug",
         "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-links.pug",
         "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
       },
       {
-        "file": "dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
         "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
       },
       {
-        "file": "dist/dist/dist/dist/dist/layout/_scripts.pug",
-        "sha": "ccc78ea22d8305c6c8b69722df0a03a8b21026b6"
+        "file": "dist/dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
       }
     ],
-    "outputSha": "0fdfaf37b210a7311baf62aaf705b1f0e6948d92",
-    "input": "dist/dist/dist/dist/dist/pages/expertise.pug",
+    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "input": "dist/dist/dist/dist/dist/dist/pages/expertise.pug",
     "output": [
-      "dist/dist/dist/dist/dist/pages/expertise.html"
+      "dist/dist/dist/dist/dist/dist/pages/expertise.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/pages/contact.pug",
+        "sha": "8090b1f11248a02b11555baf69b6543cb8caa734"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/_layout.pug",
+        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_cards.pug",
+        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_head.pug",
+        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_nav.pug",
+        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_footer.pug",
+        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-links.pug",
+        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/mixins/_footer-social-links.pug",
+        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+      },
+      {
+        "file": "dist/dist/dist/dist/dist/dist/layout/_scripts.pug",
+        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+      }
+    ],
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "input": "dist/dist/dist/dist/dist/dist/pages/contact.pug",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/pages/contact.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/scripts/main.js",
+        "sha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd"
+      }
+    ],
+    "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
+    "input": "dist/dist/dist/dist/dist/dist/scripts/main.js",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/scripts/main.js.map",
+      "dist/dist/dist/dist/dist/dist/scripts/main.js"
+    ]
+  },
+  {
+    "type": "::autoprefix=last 2 versions::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/styles/main.css",
+        "sha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc"
+      }
+    ],
+    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
+    "input": "dist/dist/dist/dist/dist/dist/styles/main.css",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/styles/main.css.map",
+      "dist/dist/dist/dist/dist/dist/styles/main.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::autoprefix=last 2 versions::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/dist/dist/dist/dist/dist/styles/main.scss",
+        "sha": "ec395d7229355aa2cabbd383d9f06789dc95d92f"
+      }
+    ],
+    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
+    "input": "dist/dist/dist/dist/dist/dist/styles/main.scss",
+    "output": [
+      "dist/dist/dist/dist/dist/dist/styles/main.css.map",
+      "dist/dist/dist/dist/dist/dist/styles/main.css"
     ]
   }
 ]

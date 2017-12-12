@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400px" height="600px" version="1.1" viewBox="0 0 14 145">
+	<defs>
+		<style type="text/css">
+			<![CDATA[ .str0 {
+				stroke: #15e25e;
+				stroke-width: 2.36221
+			}
+
+			.fil0 {
+				fill: none
+			}
+
+			.fil1 {
+				fill: #15e25e;
+				fill-rule: nonzero
+			}
+
+			]]>
+		</style>
+	</defs>
+	<g id="Layer_x0020_1">
+		<path fill="none" stroke="#15e25e" stroke-width=".7" opacity=".7" d="M7 1c1,39 6,74 5,107 -1,33 -10,43 -11,74 -1,31 4,60 6,89">
+			<animateTransform id="AngleAnim" attributeName="transform" type="translate" values="10 -30; 0 -120; 10 -30" repeatCount="indefinite"
+			 dur="30s" />
+		</path>
+		<path fill="none" stroke="#15e25e" stroke-width=".7" opacity=".6" d="M7 0c0,39 2,74 2,107 0,33 -4,43 -4,74 0,31 1,60 2,89">
+			<animateTransform id="Anim" attributeName="transform" type="translate" values="20 -70; 0 -120; 20 -70" repeatCount="indefinite"
+			 dur="30s" />
+		</path>
+		<path fill="none" stroke="#15e25e" stroke-width=".7" opacity=".5" d="M6 2c-2,39 -7,74 -6,107 1,33 12,43 13,74 1,31 -5,60 -7,89">
+			<animateTransform id="Anim" attributeName="transform" type="translate" values="0 -10; 0 -120; 0 -10" repeatCount="indefinite"
+			 dur="28s" />
+		</path>
+		<g>
+			<g>
+				<path class="fil1" opacity=".6" d="M4 148c7,37 3,81 3,123 0,-10 1,-19 2,-29 2,-20 3,-40 3,-62 0,-17 -2,-27 -5,-38 -2,-10 -4,-20 -4,-35 -1,-19 1,-40 2,-62 1,-14 2,-29 2,-44 -3,75 -10,109 -2,148z">
+					<animateTransform id="Anim" attributeName="transform" type="translate" values="10 -10; -10 -140; 10 -10" repeatCount="indefinite"
+					 dur="37s" />
+
+				</path>
+				<animateTransform attributeName="transform" type="scale" values="1; 1.3; 1" repeatCount="indefinite" dur="35s" />
+			</g>
+			<animateTransform attributeName="transform" transform="skew" values="0 0; 0 360;0 0" repeatCount="indefinite" dur="35s" />
+		</g>
+		<g>
+			<g>
+				<path class="fil1" opacity=".7" d="M8 151c-4,37 -2,81 -2,123 0,-10 -1,-19 -1,-29 -1,-20 -2,-40 -2,-62 0,-17 2,-27 3,-38 1,-10 2,-20 3,-35 0,-19 0,-40 -1,-62 0,-14 -1,-29 -1,-44 2,75 6,109 1,148z">
+					<animateTransform id="Anim" attributeName="transform" type="translate" values="0 -160; 0 -40; 0 -160" repeatCount="indefinite"
+					 dur="32s" />
+
+				</path>
+				<animateTransform attributeName="transform" type="scale" values="1; 1.2; 1" repeatCount="indefinite" dur="30s" />
+			</g>
+			<animateTransform attributeName="transform" transform="skew" values="0 0; 0 360;0 0" repeatCount="indefinite" dur="30s" />
+		</g>
+	</g>
+
+	<circle r="1" cx="1" cy="1" opacity=".7">
+		<animateMotion dur="28s" rotate="none" repeatCount="indefinite" path="M5 0c0,39 2,74 2,107 0,33 -4,43 -4,74 0,31 1,60 2,89"
+		/>
+
+	</circle>
+
+	<circle r="1" cx="1" cy="1" opacity=".3">
+		<animateMotion dur="42s" rotate="none" repeatCount="indefinite" path="M1 0c0,39 2,74 2,-107 0,33 -4,43 -4,74 0,31 1,60 2,89"
+		/>
+
+	</circle>
+
+	<circle r="1" cx="1" cy="1" opacity=".5">
+		<animateMotion dur="33s" rotate="none" repeatCount="indefinite" path="M7 0c0,39 2,7 2,1 0,3 -4,43 -4,74 0,31 1,60 2,89" />
+
+	</circle>
+
+	<circle r="1" cx="1" cy="1" opacity=".2">
+		<animateMotion dur="25s" rotate="none" repeatCount="indefinite" path="M3 0c0,359 2,7 2,1 0,3 -4,43 -4,74 0,31 1,60 2,89"
+		/>
+
+	</circle>
+
+	<circle r="1" cx="1" cy="1" opacity=".4">
+		<animateMotion dur="24s" rotate="none" repeatCount="indefinite" path="M6 2c-2,39 -7,74 -6,107 1,33 12,43 13,74 1,31 -5,60 -7,89"
+		/>
+
+	</circle>
+
+</svg>
