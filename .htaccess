@@ -70,6 +70,13 @@ mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
 
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  RewriteCond %{THE_REQUEST} \.html
-  RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^([^/]+)/$ $1.html 
+
+  # Forces a trailing slash to be added
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+  RewriteRule (.*)$ /$1/ [R=301,L]
 </IfModule>
