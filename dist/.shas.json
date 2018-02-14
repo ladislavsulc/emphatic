@@ -18,10 +18,10 @@
     "inputSha": [
       {
         "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
       }
     ],
-    "outputSha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea",
+    "outputSha": "f29c93333a1de84c909c92159ed65ccea9e423fd",
     "input": "_layout.pug",
     "output": [
       "_layout.pug"
@@ -32,7 +32,7 @@
     "inputSha": [
       {
         "file": "_oldindex.html",
-        "sha": "58a32cf423eacde27e2c1f66eeae40d608b99802"
+        "sha": "b58341ad04725c7db9a128853acdd1d2a7ae7587"
       }
     ],
     "outputSha": "7c5b072e2f60bbe7965288f217d0025e0b624f7b",
@@ -46,42 +46,42 @@
     "inputSha": [
       {
         "file": "about.pug",
-        "sha": "6f868df7a7878172cd1850b020e2cf401e09b4b4"
+        "sha": "75b8c6777d840427571e5f2c761f2114e24134c8"
       },
       {
         "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
       },
       {
         "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
       },
       {
         "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
       },
       {
         "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
       },
       {
         "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
       },
       {
         "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "outputSha": "d62157873b2df21417459aa47c32ed0e210def1c",
     "input": "about.pug",
     "output": [
       "about.html"
@@ -92,42 +92,42 @@
     "inputSha": [
       {
         "file": "case-studies.pug",
-        "sha": "1cd4fd86947624e9c328c6d5f512651dbf3ff02f"
+        "sha": "ba8cf85febd2c0893a6f9ace286de9110ad7de18"
       },
       {
         "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
       },
       {
         "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
       },
       {
         "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
       },
       {
         "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
       },
       {
         "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
       },
       {
         "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "f73fea698722929ee1b581b768eb6bc6f23f31b1",
+    "outputSha": "cdea351f60e4d7407dfc8b4b1d2aaa58dac79199",
     "input": "case-studies.pug",
     "output": [
       "case-studies.html"
@@ -138,42 +138,42 @@
     "inputSha": [
       {
         "file": "contact.pug",
-        "sha": "04b11dc200cfa521e0766b3feb090fb9accd7038"
+        "sha": "dd615b4ad650c154c06bb0a1903a4e9a0b37ea2b"
       },
       {
         "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
       },
       {
         "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
       },
       {
         "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
       },
       {
         "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
       },
       {
         "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
       },
       {
         "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "outputSha": "0ec6d434c5a90fb0cef6341ee8dbcf15032e846f",
     "input": "contact.pug",
     "output": [
       "contact.html"
@@ -184,42 +184,42 @@
     "inputSha": [
       {
         "file": "expertise.pug",
-        "sha": "c646166806b5cc58e3340c4d9c9fd4e059b270d9"
+        "sha": "0b429025b601b512eeaf61cc8934ed6968f430eb"
       },
       {
         "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
       },
       {
         "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
       },
       {
         "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
       },
       {
         "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
       },
       {
         "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
       },
       {
         "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "939586799c7cc252457662a4ffa1692be7a3b3ad",
+    "outputSha": "c60f53956e2fd27fb9299c77024a8da606c75b43",
     "input": "expertise.pug",
     "output": [
       "expertise.html"
@@ -230,42 +230,42 @@
     "inputSha": [
       {
         "file": "index.pug",
-        "sha": "75b9ea06bff94bdd40b0077fae7a0aa5035bd95c"
+        "sha": "ed35d64da5608c01eca336e5c569079c436145a4"
       },
       {
         "file": "_layout.pug",
-        "sha": "4a2b798b6651b7274ba09a882b4dae9206a0e9ea"
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
       },
       {
         "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
       },
       {
         "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
       },
       {
         "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
       },
       {
         "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
       },
       {
         "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "30da8ca80da69d8f67c8ae77301f86fd7ac19dc7",
+    "outputSha": "4ed2151f17e7bb4e5de0cf3015a7ad3414a1082e",
     "input": "index.pug",
     "output": [
       "index.html"
@@ -275,11 +275,353 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "layout/_footer.pug",
-        "sha": "e8c869377416b9a979261992c1fbb6525d1060fe"
+        "file": "dist/_404.html",
+        "sha": "376ce71673efd712d4f763e354fc3021ee994160"
       }
     ],
-    "outputSha": "e8c869377416b9a979261992c1fbb6525d1060fe",
+    "outputSha": "376ce71673efd712d4f763e354fc3021ee994160",
+    "input": "dist/_404.html",
+    "output": [
+      "dist/_404.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/_layout.pug",
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
+      }
+    ],
+    "outputSha": "f29c93333a1de84c909c92159ed65ccea9e423fd",
+    "input": "dist/_layout.pug",
+    "output": [
+      "dist/_layout.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/_oldindex.html",
+        "sha": "7c5b072e2f60bbe7965288f217d0025e0b624f7b"
+      }
+    ],
+    "outputSha": "7c5b072e2f60bbe7965288f217d0025e0b624f7b",
+    "input": "dist/_oldindex.html",
+    "output": [
+      "dist/_oldindex.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/about.html",
+        "sha": "d62157873b2df21417459aa47c32ed0e210def1c"
+      }
+    ],
+    "outputSha": "d62157873b2df21417459aa47c32ed0e210def1c",
+    "input": "dist/about.html",
+    "output": [
+      "dist/about.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/about.pug",
+        "sha": "75b8c6777d840427571e5f2c761f2114e24134c8"
+      },
+      {
+        "file": "dist/_layout.pug",
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
+      },
+      {
+        "file": "dist/mixins/_cards.pug",
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
+      },
+      {
+        "file": "dist/layout/_head.pug",
+        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+      },
+      {
+        "file": "dist/layout/_nav.pug",
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+      },
+      {
+        "file": "dist/layout/_footer.pug",
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
+      },
+      {
+        "file": "dist/mixins/_footer-links.pug",
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
+      },
+      {
+        "file": "dist/mixins/_footer-social-links.pug",
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
+      },
+      {
+        "file": "dist/layout/_scripts.pug",
+        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+      }
+    ],
+    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
+    "input": "dist/about.pug",
+    "output": [
+      "dist/about.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/case-studies.html",
+        "sha": "cdea351f60e4d7407dfc8b4b1d2aaa58dac79199"
+      }
+    ],
+    "outputSha": "cdea351f60e4d7407dfc8b4b1d2aaa58dac79199",
+    "input": "dist/case-studies.html",
+    "output": [
+      "dist/case-studies.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/case-studies.pug",
+        "sha": "ba8cf85febd2c0893a6f9ace286de9110ad7de18"
+      },
+      {
+        "file": "dist/_layout.pug",
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
+      },
+      {
+        "file": "dist/mixins/_cards.pug",
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
+      },
+      {
+        "file": "dist/layout/_head.pug",
+        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+      },
+      {
+        "file": "dist/layout/_nav.pug",
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+      },
+      {
+        "file": "dist/layout/_footer.pug",
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
+      },
+      {
+        "file": "dist/mixins/_footer-links.pug",
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
+      },
+      {
+        "file": "dist/mixins/_footer-social-links.pug",
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
+      },
+      {
+        "file": "dist/layout/_scripts.pug",
+        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+      }
+    ],
+    "outputSha": "499e38b29a4ba7056b77ac67b337d22495bf29d0",
+    "input": "dist/case-studies.pug",
+    "output": [
+      "dist/case-studies.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/contact.html",
+        "sha": "0ec6d434c5a90fb0cef6341ee8dbcf15032e846f"
+      }
+    ],
+    "outputSha": "0ec6d434c5a90fb0cef6341ee8dbcf15032e846f",
+    "input": "dist/contact.html",
+    "output": [
+      "dist/contact.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/contact.pug",
+        "sha": "dd615b4ad650c154c06bb0a1903a4e9a0b37ea2b"
+      },
+      {
+        "file": "dist/_layout.pug",
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
+      },
+      {
+        "file": "dist/mixins/_cards.pug",
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
+      },
+      {
+        "file": "dist/layout/_head.pug",
+        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+      },
+      {
+        "file": "dist/layout/_nav.pug",
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+      },
+      {
+        "file": "dist/layout/_footer.pug",
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
+      },
+      {
+        "file": "dist/mixins/_footer-links.pug",
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
+      },
+      {
+        "file": "dist/mixins/_footer-social-links.pug",
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
+      },
+      {
+        "file": "dist/layout/_scripts.pug",
+        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+      }
+    ],
+    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "input": "dist/contact.pug",
+    "output": [
+      "dist/contact.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/expertise.html",
+        "sha": "c60f53956e2fd27fb9299c77024a8da606c75b43"
+      }
+    ],
+    "outputSha": "c60f53956e2fd27fb9299c77024a8da606c75b43",
+    "input": "dist/expertise.html",
+    "output": [
+      "dist/expertise.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/expertise.pug",
+        "sha": "0b429025b601b512eeaf61cc8934ed6968f430eb"
+      },
+      {
+        "file": "dist/_layout.pug",
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
+      },
+      {
+        "file": "dist/mixins/_cards.pug",
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
+      },
+      {
+        "file": "dist/layout/_head.pug",
+        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+      },
+      {
+        "file": "dist/layout/_nav.pug",
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+      },
+      {
+        "file": "dist/layout/_footer.pug",
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
+      },
+      {
+        "file": "dist/mixins/_footer-links.pug",
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
+      },
+      {
+        "file": "dist/mixins/_footer-social-links.pug",
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
+      },
+      {
+        "file": "dist/layout/_scripts.pug",
+        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+      }
+    ],
+    "outputSha": "3111221855023b0ab45b04b28e59621504a3a03e",
+    "input": "dist/expertise.pug",
+    "output": [
+      "dist/expertise.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/index.html",
+        "sha": "4ed2151f17e7bb4e5de0cf3015a7ad3414a1082e"
+      }
+    ],
+    "outputSha": "4ed2151f17e7bb4e5de0cf3015a7ad3414a1082e",
+    "input": "dist/index.html",
+    "output": [
+      "dist/index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.4::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/index.pug",
+        "sha": "ed35d64da5608c01eca336e5c569079c436145a4"
+      },
+      {
+        "file": "dist/_layout.pug",
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
+      },
+      {
+        "file": "dist/mixins/_cards.pug",
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
+      },
+      {
+        "file": "dist/layout/_head.pug",
+        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+      },
+      {
+        "file": "dist/layout/_nav.pug",
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+      },
+      {
+        "file": "dist/layout/_footer.pug",
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
+      },
+      {
+        "file": "dist/mixins/_footer-links.pug",
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
+      },
+      {
+        "file": "dist/mixins/_footer-social-links.pug",
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
+      },
+      {
+        "file": "dist/layout/_scripts.pug",
+        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+      }
+    ],
+    "outputSha": "07509f8e12030c867d5ad6f8250dd3d53ad386b4",
+    "input": "dist/index.pug",
+    "output": [
+      "dist/index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layout/_footer.pug",
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
+      }
+    ],
+    "outputSha": "1db429794ddc9a453e36009be0a4ec426eb9d064",
     "input": "layout/_footer.pug",
     "output": [
       "layout/_footer.pug"
@@ -290,10 +632,10 @@
     "inputSha": [
       {
         "file": "layout/_head.pug",
-        "sha": "1125950f60259cbc1eeaa5da29160d83e695ecce"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       }
     ],
-    "outputSha": "1125950f60259cbc1eeaa5da29160d83e695ecce",
+    "outputSha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685",
     "input": "layout/_head.pug",
     "output": [
       "layout/_head.pug"
@@ -304,10 +646,10 @@
     "inputSha": [
       {
         "file": "layout/_nav.pug",
-        "sha": "6f054067fb84fad57a79afa288f0bf5112fa562f"
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
       }
     ],
-    "outputSha": "6f054067fb84fad57a79afa288f0bf5112fa562f",
+    "outputSha": "935424867ff99c1cba36a8c423a8b3c4b5604357",
     "input": "layout/_nav.pug",
     "output": [
       "layout/_nav.pug"
@@ -318,10 +660,10 @@
     "inputSha": [
       {
         "file": "layout/_scripts.pug",
-        "sha": "21029507727534f961bc7c84a5d5fdc24471a41b"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "21029507727534f961bc7c84a5d5fdc24471a41b",
+    "outputSha": "bae209412ff84ef477f5bd2bab020a3997096c60",
     "input": "layout/_scripts.pug",
     "output": [
       "layout/_scripts.pug"
@@ -332,10 +674,10 @@
     "inputSha": [
       {
         "file": "mixins/_cards.pug",
-        "sha": "a1e08385aa653637e1c3e86cf2b81b09a997222d"
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
       }
     ],
-    "outputSha": "a1e08385aa653637e1c3e86cf2b81b09a997222d",
+    "outputSha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212",
     "input": "mixins/_cards.pug",
     "output": [
       "mixins/_cards.pug"
@@ -346,10 +688,10 @@
     "inputSha": [
       {
         "file": "mixins/_footer-links.pug",
-        "sha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf"
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
       }
     ],
-    "outputSha": "9f8ec208103f5885c1ad024dffe999d51e3ef8bf",
+    "outputSha": "2841945789f5f94508211f29b30d5824bc100bd7",
     "input": "mixins/_footer-links.pug",
     "output": [
       "mixins/_footer-links.pug"
@@ -360,10 +702,10 @@
     "inputSha": [
       {
         "file": "mixins/_footer-social-links.pug",
-        "sha": "6327d70377ee6709bf34062db0d1438661cc9c63"
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
       }
     ],
-    "outputSha": "6327d70377ee6709bf34062db0d1438661cc9c63",
+    "outputSha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586",
     "input": "mixins/_footer-social-links.pug",
     "output": [
       "mixins/_footer-social-links.pug"
@@ -374,7 +716,7 @@
     "inputSha": [
       {
         "file": "scripts/main.js",
-        "sha": "e2ecf845feeb136ec2421b9eff8c4f23c5f9cb6b"
+        "sha": "a6dc6f5f5b0522c5ae9a2064d0b7d6ce4c4bd22e"
       }
     ],
     "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
@@ -385,11 +727,11 @@
     ]
   },
   {
-    "type": "node-sass@4.5.3::autoprefix=last 2 versions::map::minify",
+    "type": "node-sass@4.7.2::autoprefix=last 2 versions::map::minify",
     "inputSha": [
       {
         "file": "styles/main.scss",
-        "sha": "ec395d7229355aa2cabbd383d9f06789dc95d92f"
+        "sha": "65b27369e2ad948ab28e4b243a6f5196831026e9"
       }
     ],
     "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
@@ -397,6 +739,149 @@
     "output": [
       "styles/main.css.map",
       "styles/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/layout/_footer.pug",
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
+      }
+    ],
+    "outputSha": "1db429794ddc9a453e36009be0a4ec426eb9d064",
+    "input": "dist/layout/_footer.pug",
+    "output": [
+      "dist/layout/_footer.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/layout/_head.pug",
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+      }
+    ],
+    "outputSha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685",
+    "input": "dist/layout/_head.pug",
+    "output": [
+      "dist/layout/_head.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/layout/_nav.pug",
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+      }
+    ],
+    "outputSha": "935424867ff99c1cba36a8c423a8b3c4b5604357",
+    "input": "dist/layout/_nav.pug",
+    "output": [
+      "dist/layout/_nav.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/layout/_scripts.pug",
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+      }
+    ],
+    "outputSha": "bae209412ff84ef477f5bd2bab020a3997096c60",
+    "input": "dist/layout/_scripts.pug",
+    "output": [
+      "dist/layout/_scripts.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/mixins/_cards.pug",
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
+      }
+    ],
+    "outputSha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212",
+    "input": "dist/mixins/_cards.pug",
+    "output": [
+      "dist/mixins/_cards.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/mixins/_footer-links.pug",
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
+      }
+    ],
+    "outputSha": "2841945789f5f94508211f29b30d5824bc100bd7",
+    "input": "dist/mixins/_footer-links.pug",
+    "output": [
+      "dist/mixins/_footer-links.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/mixins/_footer-social-links.pug",
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
+      }
+    ],
+    "outputSha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586",
+    "input": "dist/mixins/_footer-social-links.pug",
+    "output": [
+      "dist/mixins/_footer-social-links.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/scripts/main.js",
+        "sha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd"
+      }
+    ],
+    "outputSha": "ce97e30de42eca6208a04cb5283a0b4ef847a5bd",
+    "input": "dist/scripts/main.js",
+    "output": [
+      "dist/scripts/main.js.map",
+      "dist/scripts/main.js"
+    ]
+  },
+  {
+    "type": "::autoprefix=last 2 versions::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/styles/main.css",
+        "sha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc"
+      }
+    ],
+    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
+    "input": "dist/styles/main.css",
+    "output": [
+      "dist/styles/main.css.map",
+      "dist/styles/main.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.7.2::autoprefix=last 2 versions::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/styles/main.scss",
+        "sha": "65b27369e2ad948ab28e4b243a6f5196831026e9"
+      }
+    ],
+    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
+    "input": "dist/styles/main.scss",
+    "output": [
+      "dist/styles/main.css.map",
+      "dist/styles/main.css"
     ]
   }
 ]
