@@ -6,13 +6,13 @@
 					img(src="/img/logo.svg" width="156" height="40" class="tm-logo" uk-svg)
 			div(class="uk-navbar-center uk-visible@m")
 				ul.uk-navbar-nav.tm-bolder.tm-spacing
-					li
+					li(class=(page === 'expertise') ? "uk-active" : "")
 						a(href="/expertise.html") Expertise
-					li
+					li(class=(page === 'case-studies') ? "uk-active" : "")
 						a(href="/case-studies.html") Case Studies
-					li
+					li(class=(page === 'about') ? "uk-active" : "")
 						a(href="/about.html") About
-					li
+					li(class=(page === 'contact') ? "uk-active" : "")
 						a(href="/contact.html") Contact
 			.uk-navbar-right
 				ul.uk-navbar-nav.tm-bolder.tm-spacing

@@ -10,159 +10,161 @@
 
 // Section
 .uk-section-primary {
-	background: #1ebd57;
+  background: #1ebd57;
 }
 
 // Main Navigation
 .tm-navbar-container:not(.uk-navbar-transparent) {
-	background: #fff;
-	border-bottom: 1px solid #ececec;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
 }
 .tm-logo {
-	position: relative;
-	top: 5px;
+  position: relative;
+  top: 5px;
 
-	color: #1a1a1a;
+  color: #1a1a1a;
 }
 .tm-bolder {
-	font-weight: 600;
+  font-weight: 600;
 }
 .tm-spacing {
-	letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
 }
 .tm-highlight {
-	color: #1ebd57 !important;
+  color: #1ebd57 !important;
 
-	&:hover {
-		color: #179c46 !important;
-	}
+  &:hover {
+    color: #179c46 !important;
+  }
 }
 
 // Cards
 .uk-card-default .uk-card-body a {
-	text-decoration: none;
+  text-decoration: none;
 
-	h3 {
-		display: inline;
-		padding-bottom: 2px;
-		border-bottom: 1px solid transparent;
+  h3 {
+    display: inline;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
 
-		transition: all 0.3s ease;
-	}
+    transition: all 0.3s ease;
+  }
 
-	&:hover h3 {
-		text-decoration: none;
-		border-bottom: 1px solid #111;
-		color: #111;
-	}
+  &:hover h3 {
+    text-decoration: none;
+    border-bottom: 1px solid #111;
+    color: #111;
+  }
 }
 .uk-card-small.uk-card-hover .uk-card-body a {
-	text-decoration: none;
+  text-decoration: none;
 
-	h3 {
-		display: inline;
-		padding-bottom: 2px;
-		border-bottom: 1px solid transparent;
+  h3 {
+    display: inline;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
 
-		transition: all 0.3s ease;
-	}
+    transition: all 0.3s ease;
+  }
 
-	&:hover h3 {
-		text-decoration: none;
-		border-bottom: 1px solid #111;
-		color: #111;
-	}
+  &:hover h3 {
+    text-decoration: none;
+    border-bottom: 1px solid #111;
+    color: #111;
+  }
 }
 .uk-card-media-top {
-	border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .tm-border-top .uk-card {
-	border-top: 2px solid;
+  border-top: 2px solid;
 }
 .tm-border-top div:first-child .uk-card {
-	border-color: #1e87f0;
+  border-color: #1e87f0;
 }
 .tm-border-top div:nth-child(2) .uk-card {
-	border-color: #1a1a1a;
+  border-color: #1a1a1a;
 }
 .tm-border-top div:nth-child(3) .uk-card {
-	border-color: #1ebd57;
+  border-color: #1ebd57;
 }
 
 // General
 .uk-text-small blockquote {
-	font-size: 1rem;
+  font-size: 1rem;
 
-	& p:before,
-	& p:after {
-		content: '"';
-	}
+  & p:before,
+  & p:after {
+    content: '"';
+  }
 }
 
 .uk-text-larger {
-	font-size: 1.125rem;
-    letter-spacing: 0.015em;
+  font-size: 1.125rem;
+  letter-spacing: 0.015em;
 }
 
 .fw-300 {
-	font-weight: 300;
+  font-weight: 300;
 }
 .fw-600 {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 .op-5 {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 .op-7 {
-	opacity: 0.7;
+  opacity: 0.7;
 }
 
 .grayscale img {
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-	filter: grayscale(100%);
-	
-	transition: .2s ease-in-out;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+  transition: 0.2s ease-in-out;
 }
 .grayscale img:hover {
-	-webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
-	filter: grayscale(0);
-	opacity: 1;
+  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0);
+  opacity: 1;
 }
 
 // HOME
 .tm-hp-animation {
-	position: absolute;
-	top: 0;
+  position: absolute;
+  top: 0;
 
-	height: 1200px;
+  height: 1300px;
 }
-@media (min-width: 768px) and (max-width: 959px) {  /* small - medium */  
-    .tm-hp-animation {
-		right: 3%;
-	} 
+@media (min-width: 768px) and (max-width: 959px) {
+  /* small - medium */
+  .tm-hp-animation {
+    right: 3%;
+  }
 }
-@media (min-width: 960px) and (max-width: 1199px) {  /* medium */  
-    .tm-hp-animation {
-		right: 5%;
-	} 
+@media (min-width: 960px) and (max-width: 1199px) {
+  /* medium */
+  .tm-hp-animation {
+    right: 5%;
+  }
 }
-@media (min-width: 1200px) and (max-width: 1599px) {  /* large */  
-    .tm-hp-animation {
-		right: 10%;
-	} 
+@media (min-width: 1200px) and (max-width: 1599px) {
+  /* large */
+  .tm-hp-animation {
+    right: 10%;
+  }
 }
-@media (min-width: 1600px) {  /* x-large */  
-    .tm-hp-animation {
-		right: 16%;
-	} 
+@media (min-width: 1600px) {
+  /* x-large */
+  .tm-hp-animation {
+    right: 16%;
+  }
 }
-
 
 // FOOTER
 #footer {
-	
 }
 #footer address {
-	line-height: 2;
+  line-height: 2;
 }

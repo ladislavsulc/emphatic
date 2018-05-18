@@ -42,11 +42,11 @@
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
         "file": "about.pug",
-        "sha": "75b8c6777d840427571e5f2c761f2114e24134c8"
+        "sha": "738c3a5c54c555ea611fe90fc3fd0233fc022a8d"
       },
       {
         "file": "_layout.pug",
@@ -58,11 +58,11 @@
       },
       {
         "file": "layout/_head.pug",
-        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+        "sha": "0ad41350029ed7ee65130ae192ad1d241154e40a"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+        "sha": "743aad765bf7caef823c5860fa8f72ead77ddbb6"
       },
       {
         "file": "layout/_footer.pug",
@@ -78,21 +78,21 @@
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+        "sha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2"
       }
     ],
-    "outputSha": "d62157873b2df21417459aa47c32ed0e210def1c",
+    "outputSha": "8daa7bdc0193edf7066e61e9d078ce31dfd4d0de",
     "input": "about.pug",
     "output": [
       "about.html"
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
         "file": "case-studies.pug",
-        "sha": "ba8cf85febd2c0893a6f9ace286de9110ad7de18"
+        "sha": "efc3105c738c93960052279e087ca78c1d0f5b36"
       },
       {
         "file": "_layout.pug",
@@ -104,11 +104,11 @@
       },
       {
         "file": "layout/_head.pug",
-        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+        "sha": "0ad41350029ed7ee65130ae192ad1d241154e40a"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+        "sha": "743aad765bf7caef823c5860fa8f72ead77ddbb6"
       },
       {
         "file": "layout/_footer.pug",
@@ -124,21 +124,21 @@
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+        "sha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2"
       }
     ],
-    "outputSha": "cdea351f60e4d7407dfc8b4b1d2aaa58dac79199",
+    "outputSha": "c22976590fbcb76420fc3dd99aa7fce4dee89f28",
     "input": "case-studies.pug",
     "output": [
       "case-studies.html"
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
         "file": "contact.pug",
-        "sha": "dd615b4ad650c154c06bb0a1903a4e9a0b37ea2b"
+        "sha": "6a9e8babb9b46f1ade83bfa7b033dd67e822fd74"
       },
       {
         "file": "_layout.pug",
@@ -150,11 +150,11 @@
       },
       {
         "file": "layout/_head.pug",
-        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+        "sha": "0ad41350029ed7ee65130ae192ad1d241154e40a"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+        "sha": "743aad765bf7caef823c5860fa8f72ead77ddbb6"
       },
       {
         "file": "layout/_footer.pug",
@@ -170,21 +170,21 @@
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+        "sha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2"
       }
     ],
-    "outputSha": "0ec6d434c5a90fb0cef6341ee8dbcf15032e846f",
+    "outputSha": "30e49e9da323f994c4765a1933a3bb2a9431319a",
     "input": "contact.pug",
     "output": [
       "contact.html"
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
         "file": "expertise.pug",
-        "sha": "0b429025b601b512eeaf61cc8934ed6968f430eb"
+        "sha": "ccfbd0699cd5edde85a2b0a6cd89ee0d7f8ec8f7"
       },
       {
         "file": "_layout.pug",
@@ -196,11 +196,11 @@
       },
       {
         "file": "layout/_head.pug",
-        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+        "sha": "0ad41350029ed7ee65130ae192ad1d241154e40a"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+        "sha": "743aad765bf7caef823c5860fa8f72ead77ddbb6"
       },
       {
         "file": "layout/_footer.pug",
@@ -216,21 +216,21 @@
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+        "sha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2"
       }
     ],
-    "outputSha": "c60f53956e2fd27fb9299c77024a8da606c75b43",
+    "outputSha": "391c1682d149f41103e6b9715345d2cfaac4dbf8",
     "input": "expertise.pug",
     "output": [
       "expertise.html"
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
         "file": "index.pug",
-        "sha": "ed35d64da5608c01eca336e5c569079c436145a4"
+        "sha": "2a37b82ca9e4e14606e9c4c576cf64a519f8cdf6"
       },
       {
         "file": "_layout.pug",
@@ -242,11 +242,11 @@
       },
       {
         "file": "layout/_head.pug",
-        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+        "sha": "0ad41350029ed7ee65130ae192ad1d241154e40a"
       },
       {
         "file": "layout/_nav.pug",
-        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+        "sha": "743aad765bf7caef823c5860fa8f72ead77ddbb6"
       },
       {
         "file": "layout/_footer.pug",
@@ -262,10 +262,10 @@
       },
       {
         "file": "layout/_scripts.pug",
-        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+        "sha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2"
       }
     ],
-    "outputSha": "4ed2151f17e7bb4e5de0cf3015a7ad3414a1082e",
+    "outputSha": "4f8b88a4877e65a67f6e3cb12bf5eb59c171e6e4",
     "input": "index.pug",
     "output": [
       "index.html"
@@ -318,57 +318,11 @@
     "inputSha": [
       {
         "file": "dist/about.html",
-        "sha": "d62157873b2df21417459aa47c32ed0e210def1c"
+        "sha": "8daa7bdc0193edf7066e61e9d078ce31dfd4d0de"
       }
     ],
-    "outputSha": "d62157873b2df21417459aa47c32ed0e210def1c",
+    "outputSha": "8daa7bdc0193edf7066e61e9d078ce31dfd4d0de",
     "input": "dist/about.html",
-    "output": [
-      "dist/about.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.0-rc.4::map::minify",
-    "inputSha": [
-      {
-        "file": "dist/about.pug",
-        "sha": "75b8c6777d840427571e5f2c761f2114e24134c8"
-      },
-      {
-        "file": "dist/_layout.pug",
-        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
-      },
-      {
-        "file": "dist/mixins/_cards.pug",
-        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
-      },
-      {
-        "file": "dist/layout/_head.pug",
-        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
-      },
-      {
-        "file": "dist/layout/_nav.pug",
-        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
-      },
-      {
-        "file": "dist/layout/_footer.pug",
-        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
-      },
-      {
-        "file": "dist/mixins/_footer-links.pug",
-        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
-      },
-      {
-        "file": "dist/mixins/_footer-social-links.pug",
-        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
-      },
-      {
-        "file": "dist/layout/_scripts.pug",
-        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
-      }
-    ],
-    "outputSha": "f96c1077177aa404d10d59061738aba180343805",
-    "input": "dist/about.pug",
     "output": [
       "dist/about.html"
     ]
@@ -378,21 +332,21 @@
     "inputSha": [
       {
         "file": "dist/case-studies.html",
-        "sha": "cdea351f60e4d7407dfc8b4b1d2aaa58dac79199"
+        "sha": "c22976590fbcb76420fc3dd99aa7fce4dee89f28"
       }
     ],
-    "outputSha": "cdea351f60e4d7407dfc8b4b1d2aaa58dac79199",
+    "outputSha": "c22976590fbcb76420fc3dd99aa7fce4dee89f28",
     "input": "dist/case-studies.html",
     "output": [
       "dist/case-studies.html"
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
-        "file": "dist/case-studies.pug",
-        "sha": "ba8cf85febd2c0893a6f9ace286de9110ad7de18"
+        "file": "dist/about.pug",
+        "sha": "738c3a5c54c555ea611fe90fc3fd0233fc022a8d"
       },
       {
         "file": "dist/_layout.pug",
@@ -404,7 +358,7 @@
       },
       {
         "file": "dist/layout/_head.pug",
-        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "dist/layout/_nav.pug",
@@ -424,10 +378,56 @@
       },
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "499e38b29a4ba7056b77ac67b337d22495bf29d0",
+    "outputSha": "d62157873b2df21417459aa47c32ed0e210def1c",
+    "input": "dist/about.pug",
+    "output": [
+      "dist/about.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "dist/case-studies.pug",
+        "sha": "efc3105c738c93960052279e087ca78c1d0f5b36"
+      },
+      {
+        "file": "dist/_layout.pug",
+        "sha": "f29c93333a1de84c909c92159ed65ccea9e423fd"
+      },
+      {
+        "file": "dist/mixins/_cards.pug",
+        "sha": "a9d3c88e048a03fcab8b7f8c41a2ad89f09dd212"
+      },
+      {
+        "file": "dist/layout/_head.pug",
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+      },
+      {
+        "file": "dist/layout/_nav.pug",
+        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+      },
+      {
+        "file": "dist/layout/_footer.pug",
+        "sha": "1db429794ddc9a453e36009be0a4ec426eb9d064"
+      },
+      {
+        "file": "dist/mixins/_footer-links.pug",
+        "sha": "2841945789f5f94508211f29b30d5824bc100bd7"
+      },
+      {
+        "file": "dist/mixins/_footer-social-links.pug",
+        "sha": "0c6cd0c61e0207cab3a936577437bc8b0c17d586"
+      },
+      {
+        "file": "dist/layout/_scripts.pug",
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+      }
+    ],
+    "outputSha": "cdea351f60e4d7407dfc8b4b1d2aaa58dac79199",
     "input": "dist/case-studies.pug",
     "output": [
       "dist/case-studies.html"
@@ -438,21 +438,21 @@
     "inputSha": [
       {
         "file": "dist/contact.html",
-        "sha": "0ec6d434c5a90fb0cef6341ee8dbcf15032e846f"
+        "sha": "30e49e9da323f994c4765a1933a3bb2a9431319a"
       }
     ],
-    "outputSha": "0ec6d434c5a90fb0cef6341ee8dbcf15032e846f",
+    "outputSha": "30e49e9da323f994c4765a1933a3bb2a9431319a",
     "input": "dist/contact.html",
     "output": [
       "dist/contact.html"
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
         "file": "dist/contact.pug",
-        "sha": "dd615b4ad650c154c06bb0a1903a4e9a0b37ea2b"
+        "sha": "6a9e8babb9b46f1ade83bfa7b033dd67e822fd74"
       },
       {
         "file": "dist/_layout.pug",
@@ -464,7 +464,7 @@
       },
       {
         "file": "dist/layout/_head.pug",
-        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "dist/layout/_nav.pug",
@@ -484,10 +484,10 @@
       },
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "2419007d0ccb758e4f73b60a198338791152f5f4",
+    "outputSha": "0ec6d434c5a90fb0cef6341ee8dbcf15032e846f",
     "input": "dist/contact.pug",
     "output": [
       "dist/contact.html"
@@ -498,21 +498,21 @@
     "inputSha": [
       {
         "file": "dist/expertise.html",
-        "sha": "c60f53956e2fd27fb9299c77024a8da606c75b43"
+        "sha": "391c1682d149f41103e6b9715345d2cfaac4dbf8"
       }
     ],
-    "outputSha": "c60f53956e2fd27fb9299c77024a8da606c75b43",
+    "outputSha": "391c1682d149f41103e6b9715345d2cfaac4dbf8",
     "input": "dist/expertise.html",
     "output": [
       "dist/expertise.html"
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
         "file": "dist/expertise.pug",
-        "sha": "0b429025b601b512eeaf61cc8934ed6968f430eb"
+        "sha": "ccfbd0699cd5edde85a2b0a6cd89ee0d7f8ec8f7"
       },
       {
         "file": "dist/_layout.pug",
@@ -524,7 +524,7 @@
       },
       {
         "file": "dist/layout/_head.pug",
-        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "dist/layout/_nav.pug",
@@ -544,10 +544,10 @@
       },
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "3111221855023b0ab45b04b28e59621504a3a03e",
+    "outputSha": "bc89d034f8aec8529bbeddff4d059a729a11495d",
     "input": "dist/expertise.pug",
     "output": [
       "dist/expertise.html"
@@ -558,21 +558,21 @@
     "inputSha": [
       {
         "file": "dist/index.html",
-        "sha": "4ed2151f17e7bb4e5de0cf3015a7ad3414a1082e"
+        "sha": "4f8b88a4877e65a67f6e3cb12bf5eb59c171e6e4"
       }
     ],
-    "outputSha": "4ed2151f17e7bb4e5de0cf3015a7ad3414a1082e",
+    "outputSha": "4f8b88a4877e65a67f6e3cb12bf5eb59c171e6e4",
     "input": "dist/index.html",
     "output": [
       "dist/index.html"
     ]
   },
   {
-    "type": "pug@2.0.0-rc.4::map::minify",
+    "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
         "file": "dist/index.pug",
-        "sha": "ed35d64da5608c01eca336e5c569079c436145a4"
+        "sha": "2a37b82ca9e4e14606e9c4c576cf64a519f8cdf6"
       },
       {
         "file": "dist/_layout.pug",
@@ -584,7 +584,7 @@
       },
       {
         "file": "dist/layout/_head.pug",
-        "sha": "6fcaa44b8280d808810c57466eaa69bb07c0dcb7"
+        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
       },
       {
         "file": "dist/layout/_nav.pug",
@@ -604,10 +604,10 @@
       },
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "8aff901ebb2ff3d5be73d5c866fb3c03936075fa"
+        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
       }
     ],
-    "outputSha": "07509f8e12030c867d5ad6f8250dd3d53ad386b4",
+    "outputSha": "568dcf1927d43ec4404050b7a647139e457deb76",
     "input": "dist/index.pug",
     "output": [
       "dist/index.html"
@@ -632,10 +632,10 @@
     "inputSha": [
       {
         "file": "layout/_head.pug",
-        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+        "sha": "0ad41350029ed7ee65130ae192ad1d241154e40a"
       }
     ],
-    "outputSha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685",
+    "outputSha": "0ad41350029ed7ee65130ae192ad1d241154e40a",
     "input": "layout/_head.pug",
     "output": [
       "layout/_head.pug"
@@ -646,10 +646,10 @@
     "inputSha": [
       {
         "file": "layout/_nav.pug",
-        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+        "sha": "743aad765bf7caef823c5860fa8f72ead77ddbb6"
       }
     ],
-    "outputSha": "935424867ff99c1cba36a8c423a8b3c4b5604357",
+    "outputSha": "743aad765bf7caef823c5860fa8f72ead77ddbb6",
     "input": "layout/_nav.pug",
     "output": [
       "layout/_nav.pug"
@@ -660,10 +660,10 @@
     "inputSha": [
       {
         "file": "layout/_scripts.pug",
-        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+        "sha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2"
       }
     ],
-    "outputSha": "bae209412ff84ef477f5bd2bab020a3997096c60",
+    "outputSha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2",
     "input": "layout/_scripts.pug",
     "output": [
       "layout/_scripts.pug"
@@ -727,14 +727,14 @@
     ]
   },
   {
-    "type": "node-sass@4.7.2::autoprefix=last 2 versions::map::minify",
+    "type": "node-sass@4.9.0::autoprefix=last 2 versions::map::minify",
     "inputSha": [
       {
         "file": "styles/main.scss",
-        "sha": "65b27369e2ad948ab28e4b243a6f5196831026e9"
+        "sha": "d2d388ff8bfa933d12832fd3711755fdc920cfe4"
       }
     ],
-    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
+    "outputSha": "54f3100867fbd07954fb7284752c13313b433ca4",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
@@ -760,10 +760,10 @@
     "inputSha": [
       {
         "file": "dist/layout/_head.pug",
-        "sha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685"
+        "sha": "0ad41350029ed7ee65130ae192ad1d241154e40a"
       }
     ],
-    "outputSha": "ea4a25f2a61071f51ee6812fc0dfe083c0b74685",
+    "outputSha": "0ad41350029ed7ee65130ae192ad1d241154e40a",
     "input": "dist/layout/_head.pug",
     "output": [
       "dist/layout/_head.pug"
@@ -774,10 +774,10 @@
     "inputSha": [
       {
         "file": "dist/layout/_nav.pug",
-        "sha": "935424867ff99c1cba36a8c423a8b3c4b5604357"
+        "sha": "743aad765bf7caef823c5860fa8f72ead77ddbb6"
       }
     ],
-    "outputSha": "935424867ff99c1cba36a8c423a8b3c4b5604357",
+    "outputSha": "743aad765bf7caef823c5860fa8f72ead77ddbb6",
     "input": "dist/layout/_nav.pug",
     "output": [
       "dist/layout/_nav.pug"
@@ -788,10 +788,10 @@
     "inputSha": [
       {
         "file": "dist/layout/_scripts.pug",
-        "sha": "bae209412ff84ef477f5bd2bab020a3997096c60"
+        "sha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2"
       }
     ],
-    "outputSha": "bae209412ff84ef477f5bd2bab020a3997096c60",
+    "outputSha": "b91c163b498c6ba6bd123a922cc5a76b3f6e5ff2",
     "input": "dist/layout/_scripts.pug",
     "output": [
       "dist/layout/_scripts.pug"
@@ -859,10 +859,10 @@
     "inputSha": [
       {
         "file": "dist/styles/main.css",
-        "sha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc"
+        "sha": "54f3100867fbd07954fb7284752c13313b433ca4"
       }
     ],
-    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
+    "outputSha": "54f3100867fbd07954fb7284752c13313b433ca4",
     "input": "dist/styles/main.css",
     "output": [
       "dist/styles/main.css.map",
@@ -870,14 +870,14 @@
     ]
   },
   {
-    "type": "node-sass@4.7.2::autoprefix=last 2 versions::map::minify",
+    "type": "node-sass@4.9.0::autoprefix=last 2 versions::map::minify",
     "inputSha": [
       {
         "file": "dist/styles/main.scss",
-        "sha": "65b27369e2ad948ab28e4b243a6f5196831026e9"
+        "sha": "d2d388ff8bfa933d12832fd3711755fdc920cfe4"
       }
     ],
-    "outputSha": "24ac03bad7ba213a016ad695fc5894d06e1f50cc",
+    "outputSha": "54f3100867fbd07954fb7284752c13313b433ca4",
     "input": "dist/styles/main.scss",
     "output": [
       "dist/styles/main.css.map",

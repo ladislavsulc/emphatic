@@ -1,5 +1,10 @@
 extends ./_layout.pug
 
+block vars
+	- var title = "Expertise"
+	- var description = "Description"
+	- var page = 'expertise'
+
 block content
 	
 	.uk-section.uk-section-large
@@ -20,9 +25,9 @@ block content
 				p.uk-text-lead
 					| Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
 			.uk-container.uk-margin-large-top
+				h3 Functional, Effective, Progressive, Secured
 				.uk-margin-large.uk-grid(uk-grid)
 					div(class="uk-width-expand@m uk-width-1-2@s")
-						h3 Functional
 						ul.uk-list
 							li 
 								span(class="uk-margin-small-right" uk-icon="icon: check")
@@ -37,7 +42,6 @@ block content
 								span(class="uk-margin-small-right" uk-icon="icon: check")
 								| Lorem ipsum
 					div(class="uk-width-expand@m uk-width-1-2@s")
-						h3 Usable
 						ul.uk-list
 							li 
 								span(class="uk-margin-small-right" uk-icon="icon: check")
@@ -52,7 +56,6 @@ block content
 								span(class="uk-margin-small-right" uk-icon="icon: check")
 								| Lorem ipsum
 					div(class="uk-width-expand@m uk-width-1-2@s")
-						h3 Accessible
 						ul.uk-list
 							li 
 								span(class="uk-margin-small-right" uk-icon="icon: check")
