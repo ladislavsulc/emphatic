@@ -9,7 +9,7 @@ block content
 	
 	.uk-section.uk-section-large
 		.uk-container.uk-container-small.uk-margin-large
-			h1.tm-bolder
+			h1
 				!= 'We create unique digital experience<br> and <span class="uk-text-nowrap">cross-platform</span> solutions.'
 			p.uk-text-lead
 				| Our work is a balance between business needs, user needs, creativity and the latest technology.
@@ -19,10 +19,14 @@ block content
 				+card-list('Product Design', 'Research', 'Strategy', 'User Interface Design', 'Prototyping', 'User Experience Design')
 				+card-list('Development', 'Web & Mobile', 'E-commerce', 'Software', 'Apps', 'Empathic CMS & Wordpress')
 				+card-list('Growth', 'Analytics & Insights', 'Integrated Marketing', 'User & A/B Testing', 'CRM & Automation', 'Social')
-	.uk-section.uk-section-large.uk-section-primary.uk-text-center
+			.uk-margin-large-top.uk-text-center
+				a.uk-button.uk-button-text(href="/work.html")
+					| Browse our work
+					span(class="uk-margin-small-left" uk-icon="icon: arrow-right; ratio: 1")
+	.uk-section.uk-section-large.uk-section-primary.uk-dark.uk-preserve-color.uk-text-center
 			.uk-container.uk-container-small
 				h2 Our Standards
-				p.uk-text-lead
+				p.uk-text-lead.uk-width-xlarge.uk-margin-auto
 					| Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
 			.uk-container.uk-margin-large-top
 				h3 Functional, Effective, Progressive, Secured
@@ -72,7 +76,7 @@ block content
 	.uk-section.uk-section-large.uk-section-default.uk-text-center
 		.uk-container.uk-container-small
 			h2 Our Clients
-			p.uk-text-lead
+			p.uk-text-lead.uk-width-xlarge.uk-margin-auto
 				| Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
 		.uk-container.uk-margin-large-top
 			div(uk-grid)

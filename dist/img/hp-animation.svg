@@ -3,7 +3,7 @@
 	<defs>
 		<style type="text/css">
 			<![CDATA[ .str0 {
-				stroke: #15e25e;
+				stroke: #f2f714;
 				stroke-width: 2.36221
 			}
 
@@ -12,7 +12,7 @@
 			}
 
 			.fil1 {
-				fill: #15e25e;
+				fill: #f2f714;
 				fill-rule: nonzero
 			}
 
@@ -20,15 +20,15 @@
 		</style>
 	</defs>
 	<g id="Layer_x0020_1">
-		<path fill="none" stroke="#15e25e" stroke-width=".7" opacity=".7" d="M7 1c1,39 6,74 5,107 -1,33 -10,43 -11,74 -1,31 4,60 6,89">
+		<path fill="none" stroke="#f2f714" stroke-width=".7" opacity=".7" d="M7 1c1,39 6,74 5,107 -1,33 -10,43 -11,74 -1,31 4,60 6,89">
 			<animateTransform id="AngleAnim" attributeName="transform" type="translate" values="10 -30; 0 -120; 10 -30" repeatCount="indefinite"
 			 dur="30s" />
 		</path>
-		<path fill="none" stroke="#15e25e" stroke-width=".7" opacity=".6" d="M7 0c0,39 2,74 2,107 0,33 -4,43 -4,74 0,31 1,60 2,89">
+		<path fill="none" stroke="#f2f714" stroke-width=".7" opacity=".6" d="M7 0c0,39 2,74 2,107 0,33 -4,43 -4,74 0,31 1,60 2,89">
 			<animateTransform id="Anim" attributeName="transform" type="translate" values="20 -70; 0 -120; 20 -70" repeatCount="indefinite"
 			 dur="30s" />
 		</path>
-		<path fill="none" stroke="#15e25e" stroke-width=".7" opacity=".5" d="M6 2c-2,39 -7,74 -6,107 1,33 12,43 13,74 1,31 -5,60 -7,89">
+		<path fill="none" stroke="#f2f714" stroke-width=".7" opacity=".5" d="M6 2c-2,39 -7,74 -6,107 1,33 12,43 13,74 1,31 -5,60 -7,89">
 			<animateTransform id="Anim" attributeName="transform" type="translate" values="0 -10; 0 -120; 0 -10" repeatCount="indefinite"
 			 dur="28s" />
 		</path>

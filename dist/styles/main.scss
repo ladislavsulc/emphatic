@@ -8,9 +8,20 @@
 // 3. Import UIkit.
 //@import "../node_modules/uikit/src/scss/uikit-theme.scss";
 
+// Variables
+$brand-primary: #f7f214;
+$brand-secondary: #1a1a1a;
+
+$black: #000;
+
+// Background
+.uk-background-primary {
+  background-color: $brand-primary;
+}
+
 // Section
 .uk-section-primary {
-  background: #1ebd57;
+  background: $brand-primary;
 }
 
 // Main Navigation
@@ -31,11 +42,45 @@
   letter-spacing: 0.05em;
 }
 .tm-highlight {
-  color: #1ebd57 !important;
+  color: #1a1a1a !important;
 
   &:hover {
-    color: #179c46 !important;
+    color: #000 !important;
   }
+}
+
+// ==========================================================================
+// Buttons
+// ==========================================================================
+
+.uk-button-primary {
+  background: $brand-primary;
+  color: $brand-secondary;
+
+  &:hover, 
+  &:focus {
+    background: $brand-primary;
+    border: 1px solid #bbb700;
+    color: $brand-secondary;
+  }
+
+}
+
+.uk-button-text {
+  font-size: 1em;
+}
+
+.uk-section-primary .uk-button-default {
+  border: 1px solid rgba(0,0,0,0.25);
+
+  &:hover {
+    border: 1px solid #1a1a1a;
+  }
+
+}
+.uk-button .uk-icon {
+  position: relative;
+  top: -2px;
 }
 
 // Cards
@@ -90,6 +135,9 @@
 }
 
 // General
+.uk-text-lead {
+  font-weight: 300;
+}
 .uk-text-small blockquote {
   font-size: 1rem;
 
@@ -130,41 +178,22 @@
   opacity: 1;
 }
 
-// HOME
-.tm-hp-animation {
-  position: absolute;
-  top: 0;
+// ==========================================================================
+// HOMEPAGE
+// ==========================================================================
 
-  height: 1300px;
+#hero {
+  background: url('/img/family@2x-v2.png') no-repeat center right;
+  background-size: 50%;
 }
-@media (min-width: 768px) and (max-width: 959px) {
-  /* small - medium */
-  .tm-hp-animation {
-    right: 3%;
+@media (max-width: 959px) {
+  #hero {
+    background: none;
   }
 }
-@media (min-width: 960px) and (max-width: 1199px) {
-  /* medium */
-  .tm-hp-animation {
-    right: 5%;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1599px) {
-  /* large */
-  .tm-hp-animation {
-    right: 10%;
-  }
-}
-@media (min-width: 1600px) {
-  /* x-large */
-  .tm-hp-animation {
-    right: 16%;
-  }
-}
+
 
 // FOOTER
-#footer {
-}
 #footer address {
   line-height: 2;
 }

@@ -6,29 +6,27 @@ block vars
 
 block content
 	//- Hero Section
-	#hero.uk-section-default.uk-light(style="position: relative; overflow: hidden;" uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":false}')
-		.uk-background-secondary.uk-section.uk-flex.uk-flex-middle(uk-height-viewport="offset-top: true")
-			.uk-width-1-1
-				.uk-container
-					.uk-grid-margin(uk-grid)
-						div(class="uk-width-1-2@m uk-width-1-1@s")
-							.uk-margin(uk-scrollspy-class)
-								em.uk-text-muted
-									| Digital Veterans
-							h1.uk-margin-remove-top.uk-text-left.uk-heading-primary(uk-scrollspy-class)
-								| Meet the people behind Horizon
-							.uk-margin.uk-width-xlarge.uk-text-lead.fw-300(uk-scrollspy-class)
-								| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-								| penatibus et magnis.
-							.uk-margin-medium-top(uk-scrollspy-class)
-								a(class="uk-button uk-button-default uk-button-large" href="#") Case Studies
-						div(class="uk-width-1-2@m uk-visible@m" uk-scrollspy='{"cls":"uk-animation-fade","delay":300}')
-							img(src="/img/hp-animation.svg" alt="" width="400" height="1300" class="tm-hp-animation" uk-scrollspy-class uk-svg)
+	#hero.uk-section-default.uk-dark(uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":false}')
+		.uk-flex.uk-flex-middle(uk-height-viewport="offset-top: true")
+			.uk-container
+				.uk-grid-margin(class="uk-child-width-1-2@m" uk-grid)
+					div
+						.uk-margin(uk-scrollspy-class)
+							.uk-text-muted
+								| Design / Development / Growth.
+						h1.uk-heading-primary.uk-margin-remove-top.uk-text-left(uk-scrollspy-class)
+							| Delivering outcomes with integrated solutions.
+						.uk-margin.uk-text-lead.fw-300(uk-scrollspy-class)
+							| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+							| penatibus et magnis.
+						.uk-margin-medium-top(uk-scrollspy-class)
+							a(class="uk-button uk-button-primary uk-button-large uk-margin-small-right" href="/expertise.html") Our solutions
+							a(class="uk-button uk-button-default uk-button-large" href="/work.html") Our work
 
 	//- Featured Partners & Clients
-	.uk-section.uk-section-large.uk-section-primary.uk-text-center(uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":false}')
+	.uk-section.uk-section-large.uk-section-primary.uk-dark.uk-preserve-color.uk-text-center(uk-scrollspy='{"target":"[uk-scrollspy-class]","cls":"uk-animation-fade","delay":false}')
 		.uk-container
-			h2.uk-margin-medium-bottom
+			h2.uk-h1.uk-margin-medium-bottom
 				| What We Craft
 			div(class="uk-child-width-expand@s" uk-grid)
 				div(uk-scrollspy-class)
@@ -50,7 +48,6 @@ block content
 					p.uk-text-larger
 						| Lorem ipsum dolor si amet, lorem ipsum dolor si amet, lorem ipsum dolor si amet.
 			.uk-margin-medium-top
-				a(class="uk-button uk-button-text" href="/expertise.html")
-					| See Expertise
-					span(class="uk-margin-small-left" uk-icon="icon: arrow-right; ratio: 1")
+				a(class="uk-button uk-button-default uk-button-large" href="/expertise.html")
+					| Learn more
 
