@@ -1,0 +1,50 @@
+block footer
+
+include ../mixins/_footer-links.pug
+include ../mixins/_footer-social-links.pug
+
+- var contactMail = "info@emphatic.cz";
+
+#footer.uk-section.uk-section-large.uk-section-secondary(uk-scrollspy="target:[uk-scrollspy-class]; cls:uk-animation-fade; delay:false")
+	.uk-container
+		.uk-grid-large.uk-grid-margin-large.uk-grid(uk-grid)
+
+			//- Column 1
+			div(class="uk-width-expand@m uk-width-1-2@s uk-first-column" uk-scrollspy-class)
+				.uk-margin
+					img(src="/img/logo.svg" width="125" height="32" uk-svg)
+					.uk-margin.uk-width-xlarge
+						p: em.uk-text-small.uk-text-muted &copy; Emphatic s.r.o.
+
+			//- Column 2
+			div(class="uk-width-expand@m uk-width-1-2@s" uk-scrollspy-class)
+				h3.uk-h5 Follow Us
+				ul.uk-list
+					+footer-item('https://www.facebook.com/WeAreEmphatic/','Facebook')
+					+footer-item('https://twitter.com/weareemphatic','Twitter')
+					+footer-item('https://www.linkedin.com/company-beta/2473132','LinkedIn')
+					+footer-item('https://www.firmy.cz/detail/2663275-emphatic-praha-smichov.html','Firmy.cz')
+
+			//- Column 3
+			div(class="uk-width-expand@m uk-width-1-2@s" uk-scrollspy-class)
+				h3.uk-h5 Billing Address
+				address.uk-text-muted
+					| Emphatic s.r.o.
+					br
+					| Braunova 902/11
+					br
+					| 150 00 Praha 5
+					br
+					| IČO: 24152234
+
+			//- Column 4
+			div(class="uk-width-expand@m uk-width-1-2@s" uk-scrollspy-class)
+				h3.uk-h5 Contact Us
+				.uk-margin
+					a(href="mailto:" + contactMail class="uk-text-muted") #{contactMail}
+				.uk-margin
+					div(class="uk-child-width-auto uk-grid-small" uk-grid)
+						+footer-social-item('icon: linkedin;ratio: 0.8','https://www.linkedin.com/company-beta/2473132')
+						+footer-social-item('icon: facebook;ratio: 0.8','https://www.facebook.com/')
+						+footer-social-item('icon: twitter;ratio: 0.8','https://www.twitter.com/')
+						

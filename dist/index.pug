@@ -1,8 +1,9 @@
 extends _layout.pug
 
 block vars
-	- title = "Emphatic"
-	- description ="This is homepage"
+	- var title = "Emphatic"
+	- var description = "This is homepage"
+	- var page = "home"
 
 block content
 	//- Hero Section
@@ -13,7 +14,7 @@ block content
 					div
 						.uk-margin(uk-scrollspy-class)
 							.uk-text-muted
-								| Design / Development / Growth.
+								| Design / Development / Growth
 						h1.uk-heading-primary.uk-margin-remove-top.uk-text-left(uk-scrollspy-class)
 							| Delivering outcomes with integrated solutions.
 						.uk-margin.uk-text-lead.fw-300(uk-scrollspy-class)
@@ -34,7 +35,7 @@ block content
 					h3.uk-h4.uk-margin-small-top
 						| Websites
 					p.uk-text-larger
-						| Responsive websites with great user experience and efficient design. Beautiful, blazing fast and secured.
+						| Beautiful responsive websites designed for a great user experience. Blazing fast, SEO &amp; conversion friendly and secured.
 				div(uk-scrollspy-class)
 					span(uk-icon="icon: cart; ratio: 3")
 					h3.uk-h4.uk-margin-small-top

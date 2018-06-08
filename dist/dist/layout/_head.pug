@@ -1,6 +1,9 @@
 head
 	block vars
-	title #{title} | Emphatic
+	if page === 'home'
+		title Emphatic - Digital Veterans
+	else
+		title #{title}
 
 	meta(charset="UTF-8")
 	meta(name="description" content=description)
@@ -17,7 +20,7 @@ head
 	link(rel="icon", type="image/png", href="/images/favicon.png")
 
 	//- UIkit CSS
-	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.2/css/uikit.min.css")
+	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.5/css/uikit.min.css")
 	//- Custom CSS
 	link(rel="stylesheet" href="/styles/main.css")
 
