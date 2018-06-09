@@ -63,7 +63,4 @@ typings/
 # Pingy files
 dist/
 
-# htaccess
-.htaccess
-
 # End of https://www.gitignore.io/api/node
