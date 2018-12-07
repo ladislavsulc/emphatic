@@ -17,3 +17,11 @@
 
 * Code editor with ability to prerender `.pug` and `.md` files
   * e.g. [VSCode](https://code.visualstudio.com/)
+
+## Installation
+1. Clone the repository: `git clone https://github.com/ladislavsulc/emphatic.git`
+2. Install NPM dependencies: `npm install`
+3. Start the local server: `pingy dev`
+4. Export updated files (dist folder): `pingy export`
+5. Commit changes: `git commit -m "your changes"`
+6. Push leads to automatic build on Netlify.com -> builds into production.

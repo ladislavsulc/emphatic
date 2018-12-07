@@ -14,6 +14,14 @@ mixin card-hover(cardHoverHeading, ...items)
 				each item in items
 					li= item
 
+//- Card with a heading link
+mixin card-link(cardHeading, cardLink, cardContent)
+	div
+		.uk-card.uk-card-default.uk-card-body
+			h3.uk-card-title
+				a(href= cardLink)= cardHeading
+			p= cardContent
+
 //- Card with a list
 mixin card-list(cardListHeading, ...items)
 	div
