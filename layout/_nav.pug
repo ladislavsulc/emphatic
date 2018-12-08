@@ -1,3 +1,6 @@
+include ../mixins/_footer-links.pug
+include ../mixins/_footer-social-links.pug
+
 .uk-navbar-container.tm-navbar-container(uk-sticky="show-on-up: true; animation: uk-animation-slide-top; media: 640")
 	.uk-container
 		nav(class="uk-navbar uk-visible@m")
@@ -15,8 +18,10 @@
 					li(class=(page === 'contact') ? "uk-active" : "")
 						a(href="/contact.html") Contact
 			.uk-navbar-right
-				ul.uk-navbar-nav.tm-bolder.tm-spacing
-					li: a(href="#" class="tm-highlight") Get a Quote
+				div(class="uk-child-width-auto uk-grid-small" uk-grid)
+						+footer-social-item('icon: linkedin;ratio: 0.8','https://www.linkedin.com/company-beta/2473132')
+						+footer-social-item('icon: facebook;ratio: 0.8','https://www.facebook.com/')
+						+footer-social-item('icon: twitter;ratio: 0.8','https://www.twitter.com/')
 	
 	//- Mobile Navigation
 	div(class="tm-header-mobile uk-hidden@m")
@@ -41,6 +46,7 @@
 								a(href="/about.html") About
 							li
 								a(href="/contact.html") Contact
-							li
-								a(href="#") Get a Quote
-
+						div(class="uk-flex uk-flex-center uk-margin-large-top uk-child-width-auto uk-grid-small" uk-grid)
+							+footer-social-item('icon: linkedin;ratio: 0.8','https://www.linkedin.com/company-beta/2473132')
+							+footer-social-item('icon: facebook;ratio: 0.8','https://www.facebook.com/')
+							+footer-social-item('icon: twitter;ratio: 0.8','https://www.twitter.com/')

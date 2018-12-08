@@ -1,6 +1,2 @@
 # Redirects from what the browser requests to what we serve
 
-/expertise.html     /expertise
-/work.html          /work
-/about.html         /about
-/contact.html       /contact

@@ -19,7 +19,7 @@ mixin card-link(cardHeading, cardLink, cardContent)
 	div
 		.uk-card.uk-card-default.uk-card-hover.uk-card-body
 			h3.uk-card-title
-				a(href= cardLink)= cardHeading
+				a(href= cardLink target="_blank")= cardHeading
 			p= cardContent
 
 //- Card with a list
@@ -36,10 +36,10 @@ mixin card-image(cardImageLink, cardImage, cardImageHeading, cardImageContent)
 	div
 		.uk-card.uk-card-default.uk-card-hover
 			.uk-card-media-top.uk-inline-clip.uk-transition-toggle
-				a(href= cardImageLink)
+				a(href= cardImageLink target="_blank")
 					img(src=(cardImage) class="uk-transition-scale-up uk-transition-opaque")
 			.uk-card-body
-				a(href= cardImageLink)
+				a(href= cardImageLink target="_blank")
 					h3.uk-card-title= cardImageHeading
 				p= cardImageContent
 

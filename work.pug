@@ -11,33 +11,35 @@ block content
 		.uk-container.uk-container-small.uk-margin-large
 			h1 #{title}
 			p.uk-text-lead
-				| We've been producing top quality, user driven applications for hundreds of clients, for over 12 years. From one person startups, to Fortune 500 enterprises, universities and non-profits. Here is a sample of some of our recent work.
+				| We've been producing top quality, user driven applications for dozens of clients, for over 7 years. From one person startups, to leading enterprises, universities and non-profits. Here is a sample of some of our recent work.
 	.uk-section.uk-section-large.uk-section-primary.uk-preserve-color
 		.uk-container
 			div(class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 150;")
-				+card-image('#', '/img/case-study-1.jpg', 'Adsl.cz + Dsl.cz', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.')
-				+card-image('#', '/img/case-study-1.jpg', 'Buspark', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.')
-				+card-image('#', '/img/case-study-1.jpg', 'Teal Swan: Event Management', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.')
-				+card-image('#', '/img/case-study-1.jpg', 'Teal Swan: Digital Products', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.')
-				+card-image('#', '/img/case-study-1.jpg', 'Bank Payment System', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.')
-				+card-image('#', '/img/case-study-1.jpg', 'E-MILL', 'Revolutionary Energy Generator')
-	.uk-section.uk-section-large.uk-section-default
+				+card-image('http://www.adsl.cz', '/img/case-study-1.jpg', 'Adsl.cz', 'Our first and longest relationship that brought to light this website, cutting-edge internet speedtest and CRM.')
+				+card-image('https://www.figma.com/proto/OLUspxVyTPuDKpSEIRSl9MXs/datasapiens-web-visual-design-and-styleguide?node-id=183%3A1286&viewport=169%2C253%2C0.116573&scaling=min-zoom', '/img/case-study-1.jpg', 'Datasapiens', 'Leading data company asked us to create their new presentation. We took care of UX/UI and their design system.')
+				+card-image('https://gumroad.com/tealswan', '/img/case-study-1.jpg', 'Teal Swan: Digital Products', 'Breakthrough strategy that brought to our client 5 figure profit in first days and passive income throughout the years.')
+				+card-image('https://bankpaymentsystem.com/', '/img/case-study-1.jpg', 'Bank Payment System', 'Product website designed to increase the use of the system which handles outgoing payments and incoming bank statements.')
+				+card-image('https://emill.ladislavsulc.com/', '/img/case-study-1.jpg', 'E-MILL', 'Interactive website and calculator for a revolutionary energy generator (renewable energy) called E-MILL.')
+				+card-image('https://sylviajagla.com/', '/img/case-study-1.jpg', 'Sylvia Jagla', 'Personal website curated to the needs of the individual enterpreneur working worldwide.')
+	.uk-section.uk-section-large.uk-section-muted
 		.uk-container
-			h2.uk-margin-medium-bottom.uk-text-center Other Works
+			h2.uk-margin-medium-bottom.uk-text-center
+				| Other Works
 			div(class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 150;")
-				+card-link('Grafton FB App', '#', 'UX, UI Design, Development')
-				+card-link('Bennu.cz', '#', 'UX, UI Design, Development')
-				+card-link('Přírodovědci.cz', '#', 'UX, UI Design')
-				+card-link('Expense@Work', '#', 'UX, UI Design, Development')
-				+card-link('Obchod s dárky', '#', 'UX, UI Design, Development')
-				+card('Službomat.cz', 'UX, UI Design')
-				+card-link('SK Rejšice', '#', 'UX, UI Design, Development')
-				+card-link('TealSwan.cz', '#', 'UX, UI Design, Development')
-				+card-link('Aristie' ,'#', 'UX, UI Design, Development')
-				+card-link('Ledvina Academy' ,'#', 'UX, UI Design, Development')
-				+card-link('Lucie Svoboda Art' ,'#', 'UX, UI Design, Development')
-				+card-link('River Business Center' ,'#', 'UX, UI Design, Development')
-				+card-link('Insophy' ,'#', 'UX, UI Design')
-				+card-link('JHMD', '#', 'UX, UI Design')
+				+card-link('Grafton FB App', 'https://www.ladislavsulc.com/portfolio/grafton-jobs/', 'UX, UI Design, Development')
+				+card-link('DSL.cz', 'https://www.dsl.cz', 'UX, UI Design, Development')
+				+card-link('Bennu.cz', 'https://www.bennu.cz', 'UX, UI Design, Development')
+				+card-link('Teal Swan', 'https://www.dropbox.com/sh/o59r4l3tac2828x/AADxfu_YZ-KATwJyjaF_e_C-a?dl=0', 'Branding, UX/UI, Development, Social')
+				+card-link('csred', 'https://csred.cz/','Branding, UX, UI, GFX, Development')
+				+card-link('Expense@Work', 'https://expense.cz', 'UX, UI Design, Visual Design')
+				+card-link('Buspark', 'https://www.buspark.cz', 'UX, UI Design, Development')
+				+card-link('Justina Spring Poetry', 'https://justinaspring.com/','Branding, UX, UI, GFX, Development')
+				+card-link('SK Rejšice', 'https://www.skrejsice.cz', 'UX, UI Design, Development')
+				+card-link('Přírodovědci.cz', 'https://www.prirodovedci.cz/', 'UX, UI Design')
+				+card-link('Aristie' ,'https://www.aristie.cz/', 'Branding, UX/UI, Development')
+				+card-link('Ledvina Academy' ,'http://www.ledvina-academy.cz', 'Branding, UX/UI, Development, Social')
+				+card-link('Lucie Svoboda Art' ,'https://www.luciesvoboda.com', 'Branding, UX/UI, Development')
+				+card-link('Plantune' ,'http://www.plantune.cz/', 'UX, UI Design')
+				+card-link('JHMD', 'http://jhmd.cz/', 'UX, UI Design')
 				
 	
