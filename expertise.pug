@@ -29,50 +29,26 @@ block content
 				p.uk-text-lead.uk-width-xlarge.uk-margin-auto
 					| The difference between average and exceptional is paying attention to the details while seeing the overall picture.
 			.uk-container-small.uk-margin-auto.uk-margin-large-top
-				h3 Functional, Effective, Progressive, Secured
-				.uk-margin-large.uk-text-left.uk-grid(uk-grid)
-					div(class="uk-width-expand@m uk-width-1-2@s")
+				h3 Functional, User & Mobile Friendly, Fast, Secured
+				div.uk-flex.uk-flex-center.uk-margin-auto.uk-margin-large-top.uk-text-left(class="uk-width-child-1-1@s uk-width-child-1-3@m" uk-grid)
+					div
 						ul.uk-list
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Accesibility
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Usability
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Functionality
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Thorough Research
-					div(class="uk-width-expand@m uk-width-1-2@s")
+							+item-icon('Accesibility')
+							+item-icon('Usability')
+							+item-icon('Functionality')
+							+item-icon('Thorough Research')
+					div
 						ul.uk-list
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Validated Ideas
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Great User Experience
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Exceptional Design
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Progressive Visual Design 
-					div(class="uk-width-expand@m uk-width-1-2@s")
+							+item-icon('Validated Ideas')
+							+item-icon('Great User Experience')
+							+item-icon('Exceptional Design')
+							+item-icon('Visually Appealing')
+					div
 						ul.uk-list
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Fast Load Times
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| SEO In Mind
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Top Notch Security
-							li 
-								span(class="uk-margin-small-right" uk-icon="icon: check")
-								| Growth Oriented
+							+item-icon('Fast Load Times')
+							+item-icon('SEO In Mind')
+							+item-icon('Top Notch Security')
+							+item-icon('Growth Ready')
 	.uk-section.uk-section-large.uk-section-default.uk-text-center
 		.uk-container.uk-container-small
 			h2 Our Clients

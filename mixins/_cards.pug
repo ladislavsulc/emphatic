@@ -1,7 +1,7 @@
 //- Default Card
 mixin card(cardHeading, cardContent)
 	div
-		.uk-card.uk-card-default.uk-card-body
+		.uk-card.uk-card-default.uk-card-hover.uk-card-body
 			h3.uk-card-title= cardHeading
 			p= cardContent
 
@@ -17,7 +17,7 @@ mixin card-hover(cardHoverHeading, ...items)
 //- Card with a heading link
 mixin card-link(cardHeading, cardLink, cardContent)
 	div
-		.uk-card.uk-card-default.uk-card-body
+		.uk-card.uk-card-default.uk-card-hover.uk-card-body
 			h3.uk-card-title
 				a(href= cardLink)= cardHeading
 			p= cardContent
