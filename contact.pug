@@ -8,7 +8,35 @@ block vars
 block content
 	
 	.uk-section.uk-section-large
-		.uk-container.uk-container-small.uk-margin-large
+		.uk-container.uk-container-small.uk-margin-large.uk-text-center
 			h1 #{title}
 			p.uk-text-lead
-				| We've been producing top quality, user driven applications for hundreds of clients, for over 12 years. From one person startups, to Fortune 500 enterprises, universities and non-profits. Here is a sample of some of our recent work.
+				span.uk-icon.uk-margin-small-right(uk-icon="icon: mail")
+				a(href="mailto:info@emphatic.cz") info@emphatic.cz
+	.uk-section.uk-section-large.uk-section-muted
+		.uk-container.uk-container-small.uk-margin-large
+			.uk-width-xlarge.uk-margin-auto.uk-background-default.uk-padding.uk-box-shadow-medium
+				form.uk-form-stacked(name="contact" method="POST" netlify)
+					.uk-margin
+						label.uk-form-label
+							| Your Name
+						input.uk-input(type="text" placeholder="Your Full Name" name="name")
+					.uk-margin
+						label.uk-form-label
+							| Your Email
+						input.uk-input(type="email" placeholder="Email" name="email")
+					.uk-margin
+						label.uk-form-label
+							| Your Company Website
+						input.uk-input(type="text" name="website")
+					.uk-margin
+						label.uk-form-label
+							| Subject
+						input.uk-input(type="text" placeholder="How Can We Help?" name="subject")
+					.uk-margin
+						label.uk-form-label
+							| Your Message
+						textarea.uk-textarea(type="textarea" rows="8" name="message")
+					.uk-margin.uk-margin-remove-bottom
+						button.uk-button.uk-button-primary.uk-button-large(type="submit")
+							| Send
