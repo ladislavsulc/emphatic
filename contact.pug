@@ -19,24 +19,24 @@ block content
 				form.uk-form-stacked(name="contact" method="POST" netlify)
 					.uk-margin
 						label.uk-form-label
-							| Your Name
-						input.uk-input(type="text" placeholder="Your Full Name" name="name")
+							!='Your Name<em>*</em>'
+						input.uk-input(type="text" placeholder="Your Full Name" name="name" required)
 					.uk-margin
 						label.uk-form-label
-							| Your Email
-						input.uk-input(type="email" placeholder="Email" name="email")
+							!='Your Email<em>*</em>'
+						input.uk-input(type="email" placeholder="Email" name="email" required)
 					.uk-margin
 						label.uk-form-label
 							| Your Company Website
 						input.uk-input(type="text" name="website")
 					.uk-margin
 						label.uk-form-label
-							| Subject
-						input.uk-input(type="text" placeholder="How Can We Help?" name="subject")
+							!='Subject<em>*</em>'
+						input.uk-input(type="text" placeholder="How Can We Help?" name="subject" required)
 					.uk-margin
 						label.uk-form-label
-							| Your Message
-						textarea.uk-textarea(type="textarea" rows="8" name="message")
+							!='Your Message<em>*</em>'
+						textarea.uk-textarea(type="textarea" rows="8" name="message" required)
 					.uk-margin.uk-margin-remove-bottom
 						button.uk-button.uk-button-primary.uk-button-large(type="submit")
 							| Send
