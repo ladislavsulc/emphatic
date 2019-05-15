@@ -23,6 +23,12 @@ html,
   color: $brand-secondary;
 }
 
+/* Text */
+
+.uk-text-muted {
+  color: #777777 !important;
+}
+
 /* Links */
 
 .uk-link,
@@ -62,6 +68,10 @@ a em {
   top: 5px;
 
   color: $brand-secondary;
+}
+
+.uk-navbar-toggle {
+  color: #333;
 }
 
 .tm-bolder {
